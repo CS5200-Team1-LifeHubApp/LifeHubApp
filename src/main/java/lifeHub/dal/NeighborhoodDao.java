@@ -2,7 +2,7 @@ package lifeHub.dal;
 
 import lifeHub.model.*;
 
-// TODO -- be sure to remove unused imports
+// TODO: be sure to remove unused imports
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

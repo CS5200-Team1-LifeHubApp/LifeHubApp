@@ -1,7 +1,7 @@
-package blog.servlet;
+package lifeHub.servlet;
 
-import blog.dal.*;
-import blog.model.*;
+import lifeHub.dal.*;
+import lifeHub.model.*;
 
 import java.io.IOException;
 import java.sql.SQLException;
