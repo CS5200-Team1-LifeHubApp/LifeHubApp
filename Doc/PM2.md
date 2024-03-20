@@ -6,6 +6,7 @@
 ## UML
 ![UML](https://github.com/YiwenW312/LifeHubApp/blob/main/Img/UML.jpeg)
 
+## Create table & Insert Data
 ```MySQL
 /** 
 Team Name: Team 1
@@ -255,3 +256,20 @@ SET Name = @Name,
     CuisineType = @CuisineType, 
     NeighborZipId = (SELECT NeighborZipId FROM NeighborhoodbyZip WHERE NeighborZipId = @NeighborZipId);
 ```
+
+## Row Count
+![](https://github.com/YiwenW312/LifeHubApp/blob/main/Img/Lines.png)
+![](https://github.com/YiwenW312/LifeHubApp/blob/main/Img/zipcode.png)
+
+### Data includes:
+
+
+
+| Rows  | From                                           | To               | TotalRows |
+|-------|------------------------------------------------|------------------|-----------|
+| 94356 | King_County_Crime_Report                       | CrimeActivity    | 138923    |
+| 42523 | Seattle_Pet_Licenses_2024010                   | Pet              |           |
+| 1307  | Seattle_Parks_and_Recreation_Parks_Features_Cleaned | Park          |           |
+| 500   | Seattle_fake_restaurants                       | Restaurant       |           |
+| 197   | King_County_by_Zipcode1                        | NeighborhoodbyZip|           |
+| 40    | King_County_Farmers_Market                     | FarmersMarket    |           |
