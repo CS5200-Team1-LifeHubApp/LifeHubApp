@@ -1,0 +1,1395 @@
+PMAID,Zipcode,Name,Feature_ID,hours,Feature_Desc
+281,98119,12th and Howe Play Park,22,6 a.m. - 10 p.m.,Play Area
+4159,98144,12th Ave S Viewpoint,34,6 a.m. - 10 p.m.,View
+4010,98107,14th Ave NW Boat Ramp,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+4010,98107,14th Ave NW Boat Ramp,6,4 a.m. - 11:30 p.m.,Boat Launch (Motorized)
+4010,98107,14th Ave NW Boat Ramp,36,4 a.m. - 11:30 p.m.,Waterfront
+1000001,98199,32nd Ave W Boat Launch,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+3158,98117,6th Ave NW Pocket Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4404,98103,A. B. Ernst Park,33,4 a.m. - 11:30 p.m.,Paths
+4404,98103,A. B. Ernst Park,34,4 a.m. - 11:30 p.m.,View
+1000002,98118,Adams Street Boat Ramp,7,6 a.m. - 10:00 p.m.,Boat Launch (Hand Carry)
+1000002,98118,Adams Street Boat Ramp,36,6 a.m. - 10:00 p.m.,Waterfront
+244,98125,Albert Davis Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+445,98116,Alki Beach Park,7,4 a.m.-11:30 p.m.,Boat Launch (Hand Carry)
+445,98116,Alki Beach Park,14,4 a.m.-11:30 p.m.,Fire Pit
+445,98116,Alki Beach Park,33,4 a.m.-11:30 p.m.,Paths
+445,98116,Alki Beach Park,42,4 a.m.-11:30 p.m.,Paths (ADA Compliant)
+445,98116,Alki Beach Park,21,4 a.m.-11:30 p.m.,Picnic Sites
+445,98116,Alki Beach Park,26,4 a.m.-11:30 p.m.,Rental Facility
+445,98116,Alki Beach Park,27,4 a.m.-11:30 p.m.,Restrooms
+445,98116,Alki Beach Park,40,4 a.m.-11:30 p.m.,Restrooms (ADA Compliant)
+445,98116,Alki Beach Park,34,4 a.m.-11:30 p.m.,View
+445,98116,Alki Beach Park,36,4 a.m.-11:30 p.m.,Waterfront
+475,98105,Belvoir Place,15,4 a.m. - 11:30 p.m.,Fishing
+3914,98122,Alvin Larkins Park,33,4 a.m. - 11:30 p.m.,Paths
+426,98144,Amy Yee Tennis Center,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+2927,98116,Andover Place,34,4 a.m. - 11:30 p.m.,View
+2927,98116,Andover Place,36,4 a.m. - 11:30 p.m.,Waterfront
+485,98146,Arroyos Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+485,98146,Arroyos Natural Area,37,4 a.m. - 11:30 p.m.,Woods
+4081,98118,Atlantic City Boat Ramp,6,24 Hours,Boat Launch (Motorized)
+4081,98118,Atlantic City Boat Ramp,36,24 Hours,Waterfront
+4243,98144,Atlantic Street Park,74,4 a.m. - 11:30 p.m.,Adult Fitness Equipment
+4243,98144,Atlantic Street Park,33,4 a.m. - 11:30 p.m.,Paths
+4243,98144,Atlantic Street Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+4243,98144,Atlantic Street Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+2840,98117,Baker Park on Crown Hill,33,4 a.m. - 11:30 p.m.,Paths
+2840,98117,Baker Park on Crown Hill,20,4 a.m. - 11:30 p.m.,Pesticide Free
+2840,98117,Baker Park on Crown Hill,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4278,98107,Ballard Commons Park,28,4 a.m. - 11:30 p.m.,Skatepark
+4278,98107,Ballard Commons Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+4428,98107,Ballard Corners Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+1000342,98119,Bayview-Kinnear (Lower Kerry Park),41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+440,98118,Beer Sheva Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+440,98118,Beer Sheva Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+440,98118,Beer Sheva Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+440,98118,Beer Sheva Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+440,98118,Beer Sheva Park,27,4 a.m. - 11:30 p.m.,Restrooms
+440,98118,Beer Sheva Park,34,4 a.m. - 11:30 p.m.,View
+440,98118,Beer Sheva Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4022,98102,Bellevue Place,33,4 a.m. - 11:30 p.m.,Paths
+4022,98102,Bellevue Place,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+4415,98121,Belltown Cottage Park,18,4 a.m. - 11:30 p.m.,Historic Landmark
+4415,98121,Belltown Cottage Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+447,98126,Belvedere Park,34,4 a.m. - 11:30 p.m.,View
+447,98126,Belvedere Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+475,98105,Belvoir Place,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+475,98105,Belvoir Place,20,4 a.m. - 11:30 p.m.,Pesticide Free
+475,98105,Belvoir Place,34,4 a.m. - 11:30 p.m.,View
+475,98105,Belvoir Place,36,4 a.m. - 11:30 p.m.,Waterfront
+304,98109,Bhy Kracke Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+304,98109,Bhy Kracke Park,34,4 a.m. - 11:30 p.m.,View
+304,98109,Bhy Kracke Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+4450,98133,Bitter Lake Reservoir Open Space,74,4 a.m. - 11:30 p.m.,Adult Fitness Equipment
+4450,98133,Bitter Lake Reservoir Open Space,33,4 a.m. - 11:30 p.m.,Paths
+4450,98133,Bitter Lake Reservoir Open Space,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4450,98133,Bitter Lake Reservoir Open Space,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+4418,98144,Blue Dog Pond,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+362,98112,Boren Park,33,4 a.m. - 11:30 p.m.,Paths
+362,98112,Boren Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+362,98112,Boren Park,37,4 a.m. - 11:30 p.m.,Woods
+401,98144,Bradner Gardens Park,64,4 a.m. - 11:30 p.m.,Community Building
+401,98144,Bradner Gardens Park,17,4 a.m. - 11:30 p.m.,Garden
+401,98144,Bradner Gardens Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+401,98144,Bradner Gardens Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+401,98144,Bradner Gardens Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+401,98144,Bradner Gardens Park,27,4 a.m. - 11:30 p.m.,Restrooms
+401,98144,Bradner Gardens Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+401,98144,Bradner Gardens Park,34,4 a.m. - 11:30 p.m.,View
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+405,98144,Colman Park,36,6 a.m. - 10 p.m.,Waterfront
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,18,4 a.m. - 11:30 p.m.,Historic Landmark
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,33,4 a.m. - 11:30 p.m.,Paths
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,26,4 a.m. - 11:30 p.m.,Rental Facility
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+3102,98122,Cal Anderson Park and Bobby Morris Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+4154,98126,Camp Long,13,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Environmental Learning Center
+4154,98126,Camp Long,58,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Hiking Trails
+4154,98126,Camp Long,33,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Paths
+4154,98126,Camp Long,42,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Paths (ADA Compliant)
+4154,98126,Camp Long,26,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Rental Facility
+4469,98117,Crown Hill Park,65,4 a.m. - 11:30 p.m.,U-8 Soccer
+4154,98126,Camp Long,27,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Restrooms
+4154,98126,Camp Long,40,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Restrooms (ADA Compliant)
+4154,98126,Camp Long,9,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Weddings and Ceremonies
+4154,98126,Camp Long,37,"<b>Tuesday - Sunday</b> 10 a.m. - 6 p.m. <BR>
+(December-February: Closed on Sundays)",Woods
+240,98117,Carkeek Park,7,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Boat Launch (Hand Carry)
+240,98117,Carkeek Park,11,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Creek
+240,98117,Carkeek Park,13,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Environmental Learning Center
+240,98117,Carkeek Park,58,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Hiking Trails
+240,98117,Carkeek Park,33,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Paths
+240,98117,Carkeek Park,21,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Picnic Sites
+240,98117,Carkeek Park,39,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Picnic Sites (ADA Compliant)
+240,98117,Carkeek Park,41,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Play Area (ADA Compliant)
+240,98117,Carkeek Park,26,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Rental Facility
+240,98117,Carkeek Park,27,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Restrooms
+240,98117,Carkeek Park,40,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Restrooms (ADA Compliant)
+240,98117,Carkeek Park,34,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",View
+240,98117,Carkeek Park,36,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Waterfront
+240,98117,Carkeek Park,9,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Weddings and Ceremonies
+240,98117,Carkeek Park,37,"<b>Park Hours:</b> 6 a.m.-10 p.m.<BR>
+<b>Environmental Learning Center Hours:</b> Weekdays 10 a.m. - 4 p.m.",Woods
+4167,98125,Cedar Park,33,4 a.m. - 11:30 p.m.,Paths
+4167,98125,Cedar Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+4167,98125,Cedar Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+80,98116,Charles Richey Sr Viewpoint,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+80,98116,Charles Richey Sr Viewpoint,34,4 a.m. - 11:30 p.m.,View
+80,98116,Charles Richey Sr Viewpoint,36,4 a.m. - 11:30 p.m.,Waterfront
+421,98118,Chinook Beach Park,34,4 a.m. - 11:30 p.m.,View
+421,98118,Chinook Beach Park,36,4 a.m. - 11:30 p.m.,Waterfront
+595,98105,Christie Park,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+3985,98119,Coe Play Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3922,98144,College Street Park,56,4 a.m. - 11:30 p.m.,Green Space
+260,98116,College Street Ravine,56,4 a.m. - 11:30 p.m.,Green Space
+405,98144,Colman Park,45,6 a.m. - 10 p.m.,Baseball/Softball
+405,98144,Colman Park,33,6 a.m. - 10 p.m.,Paths
+405,98144,Colman Park,25,6 a.m. - 10 p.m.,P-Patch Community Garden
+405,98144,Colman Park,44,6 a.m. - 10 p.m.,Soccer
+405,98144,Colman Park,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+405,98144,Colman Park,37,6 a.m. - 10 p.m.,Woods
+4034,98118,Columbia Park,33,4 a.m. - 11:30 p.m.,Paths
+4034,98118,Columbia Park,34,4 a.m. - 11:30 p.m.,View
+308,98107,Commodore Park,33,4 a.m. - 11:30 p.m.,Paths
+308,98107,Commodore Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+308,98107,Commodore Park,27,4 a.m. - 11:30 p.m.,Restrooms
+308,98107,Commodore Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+308,98107,Commodore Park,34,4 a.m. - 11:30 p.m.,View
+295,98116,Cormorant Cove,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+295,98116,Cormorant Cove,34,4 a.m. - 11:30 p.m.,View
+295,98116,Cormorant Cove,36,4 a.m. - 11:30 p.m.,Waterfront
+4462,98106,Cottage Grove Park,33,4 a.m. - 11:30 p.m.,Paths
+4462,98106,Cottage Grove Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+483,98105,Cowen Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+483,98105,Cowen Park,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+483,98105,Cowen Park,11,4 a.m. - 11:30 p.m.,Creek
+483,98105,Cowen Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+483,98105,Cowen Park,18,4 a.m. - 11:30 p.m.,Historic Landmark
+483,98105,Cowen Park,33,4 a.m. - 11:30 p.m.,Paths
+483,98105,Cowen Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+483,98105,Cowen Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+483,98105,Cowen Park,27,4 a.m. - 11:30 p.m.,Restrooms
+483,98105,Cowen Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+483,98105,Cowen Park,37,4 a.m. - 11:30 p.m.,Woods
+4070,98117,Crown Hill Glen,33,4 a.m. - 11:30 p.m.,Paths
+4070,98117,Crown Hill Glen,37,4 a.m. - 11:30 p.m.,Woods
+4469,98117,Crown Hill Park,33,4 a.m. - 11:30 p.m.,Paths
+4469,98117,Crown Hill Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4469,98117,Crown Hill Park,66,4 a.m. - 11:30 p.m.,Skate Dot
+4469,98117,Crown Hill Park,28,4 a.m. - 11:30 p.m.,Skatepark
+4469,98117,Crown Hill Park,48,4 a.m. - 11:30 p.m.,T-Ball
+4400,98144,Daejeon Park,34,4 a.m. - 11:30 p.m.,View
+499,98115,Dahl Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+499,98115,Dahl Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+499,98115,Dahl Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+499,98115,Dahl Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+499,98115,Dahl Playfield,28,4 a.m. - 11:30 p.m.,Skatepark
+499,98115,Dahl Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+499,98115,Dahl Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+331,98119,David Rodgers Park,33,4 a.m. - 11:30 p.m.,Paths
+331,98119,David Rodgers Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+331,98119,David Rodgers Park,27,4 a.m. - 11:30 p.m.,Restrooms
+331,98119,David Rodgers Park,30,4 a.m. - 11:30 p.m.,Tennis Backboard (Outdoor)
+331,98119,David Rodgers Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+331,98119,David Rodgers Park,46,4 a.m. - 11:30 p.m.,Track
+331,98119,David Rodgers Park,37,4 a.m. - 11:30 p.m.,Woods
+4082,98144,Day Street Boat Ramp,7,6 a.m. - 10 p.m.,Boat Launch (Hand Carry)
+4082,98144,Day Street Boat Ramp,20,6 a.m. - 10 p.m.,Pesticide Free
+4082,98144,Day Street Boat Ramp,34,6 a.m. - 10 p.m.,View
+4082,98144,Day Street Boat Ramp,36,6 a.m. - 10 p.m.,Waterfront
+408,98126,Dearborn Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+408,98126,Dearborn Park,33,4 a.m. - 11:30 p.m.,Paths
+408,98126,Dearborn Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+408,98126,Dearborn Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+408,98126,Dearborn Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+408,98126,Dearborn Park,37,4 a.m. - 11:30 p.m.,Woods
+3980,98112,Denny Blaine Lake Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+3982,98112,Denny Blaine Park,34,4 a.m. - 11:30 p.m.,View
+3982,98112,Denny Blaine Park,36,4 a.m. - 11:30 p.m.,Waterfront
+3982,98112,Denny Blaine Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+309,98109,Denny Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+309,98109,Denny Park,33,4 a.m. - 11:30 p.m.,Paths
+309,98109,Denny Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+309,98109,Denny Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+310,98199,Discovery Park,3,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Basketball (Full)
+310,98199,Discovery Park,13,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Environmental Learning Center
+310,98199,Discovery Park,58,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Hiking Trails
+310,98199,Discovery Park,18,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Historic Landmark
+310,98199,Discovery Park,33,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Paths
+310,98199,Discovery Park,42,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Paths (ADA Compliant)
+310,98199,Discovery Park,41,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Play Area (ADA Compliant)
+310,98199,Discovery Park,26,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Rental Facility
+310,98199,Discovery Park,27,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Restrooms
+310,98199,Discovery Park,40,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Restrooms (ADA Compliant)
+310,98199,Discovery Park,29,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Tennis Court (Outdoor)
+2975,98102,Fairview Park,34,4 a.m. - 11:30 p.m.,View
+310,98199,Discovery Park,34,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",View
+310,98199,Discovery Park,36,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Waterfront
+310,98199,Discovery Park,9,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Weddings and Ceremonies
+310,98199,Discovery Park,37,"<b>Park Hours:</b> Daily 4 a.m. - 11:30 p.m.<br>
+<b>Visitor Center Hours:</b> Tuesday-Sunday
+8:30 a.m. - 5 p.m.<br>
+<i>Closed holidays</i>",Woods
+4011,98103,Fremont Canal Park,34,4 a.m. - 11:30 p.m.,View
+3917,98116,Don Armeni Park,7,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Boat Launch (Hand Carry)
+3917,98116,Don Armeni Park,6,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Boat Launch (Motorized)
+3917,98116,Don Armeni Park,33,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Paths
+3917,98116,Don Armeni Park,21,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Picnic Sites
+3917,98116,Don Armeni Park,27,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Restrooms
+3917,98116,Don Armeni Park,34,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,View
+3917,98116,Don Armeni Park,36,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Waterfront
+3917,98116,Don Armeni Park,9,4 a.m. - 11:30 p.m. except for vehicles with boats trailers and permits,Weddings and Ceremonies
+395,98144,Dr. Blanche Lavizzo Park,10,6 a.m. - 10 p.m.,Community Center
+395,98144,Dr. Blanche Lavizzo Park,33,6 a.m. - 10 p.m.,Paths
+395,98144,Dr. Blanche Lavizzo Park,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+395,98144,Dr. Blanche Lavizzo Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+395,98144,Dr. Blanche Lavizzo Park,27,6 a.m. - 10 p.m.,Restrooms
+433,98144,Dr. Jose Rizal Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+433,98144,Dr. Jose Rizal Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+433,98144,Dr. Jose Rizal Park,33,4 a.m. - 11:30 p.m.,Paths
+433,98144,Dr. Jose Rizal Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+433,98144,Dr. Jose Rizal Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+433,98144,Dr. Jose Rizal Park,27,4 a.m. - 11:30 p.m.,Restrooms
+433,98144,Dr. Jose Rizal Park,34,4 a.m. - 11:30 p.m.,View
+433,98144,Dr. Jose Rizal Park,37,4 a.m. - 11:30 p.m.,Woods
+705,98106,Duwamish Waterway Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+705,98106,Duwamish Waterway Park,34,4 a.m. - 11:30 p.m.,View
+705,98106,Duwamish Waterway Park,36,4 a.m. - 11:30 p.m.,Waterfront
+374,98112,East Montlake Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4012,98199,Eastmont Place,34,4 a.m. - 11:30 p.m.,View
+1000003,98117,Eddie Vine Boat Ramp,7,24 Hours,Boat Launch (Hand Carry)
+1000003,98117,Eddie Vine Boat Ramp,6,24 Hours,Boat Launch (Motorized)
+1000003,98117,Eddie Vine Boat Ramp,15,24 Hours,Fishing
+1000003,98117,Eddie Vine Boat Ramp,36,24 Hours,Waterfront
+4454,98116,Ercolini Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+2975,98102,Fairview Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+2975,98102,Fairview Park,15,4 a.m. - 11:30 p.m.,Fishing
+2975,98102,Fairview Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+2975,98102,Fairview Park,36,4 a.m. - 11:30 p.m.,Waterfront
+453,98136,Fauntleroy Park,11,6 a.m. - 10 p.m.,Creek
+453,98136,Fauntleroy Park,56,6 a.m. - 10 p.m.,Green Space
+453,98136,Fauntleroy Park,58,6 a.m. - 10 p.m.,Hiking Trails
+453,98136,Fauntleroy Park,33,6 a.m. - 10 p.m.,Paths
+453,98136,Fauntleroy Park,37,6 a.m. - 10 p.m.,Woods
+413,98118,Ferdinand Street Boat Ramp,7,24 hours,Boat Launch (Hand Carry)
+413,98118,Ferdinand Street Boat Ramp,21,24 hours,Picnic Sites
+351,98122,Firehouse Mini Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+363,98144,Flo Ware Park,4,6 a.m. - 10 p.m.,Basketball (Half)
+363,98144,Flo Ware Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+312,98101,Freeway Park - Jim Ellis Freeway Park,16,6 a.m. - 10 p.m.,Decorative Fountain
+312,98101,Freeway Park - Jim Ellis Freeway Park,33,6 a.m. - 10 p.m.,Paths
+312,98101,Freeway Park - Jim Ellis Freeway Park,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+4011,98103,Fremont Canal Park,33,4 a.m. - 11:30 p.m.,Paths
+4011,98103,Fremont Canal Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4424,98103,Fremont Peak Park,33,4 a.m. - 11:30 p.m.,Paths
+4424,98103,Fremont Peak Park,34,4 a.m. - 11:30 p.m.,View
+392,98144,Frink Park,11,4 a.m. - 11:30 p.m.,Creek
+392,98144,Frink Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+392,98144,Frink Park,33,4 a.m. - 11:30 p.m.,Paths
+392,98144,Frink Park,37,4 a.m. - 11:30 p.m.,Woods
+114,98108,Jefferson Park,34,4 a.m. - 11:30 p.m.,View
+293,98103,Gas Works Park,18,6 a.m. - 10 p.m.,Historic Landmark
+293,98103,Gas Works Park,33,6 a.m. - 10 p.m.,Paths
+293,98103,Gas Works Park,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+293,98103,Gas Works Park,21,6 a.m. - 10 p.m.,Picnic Sites
+293,98103,Gas Works Park,22,6 a.m. - 10 p.m.,Play Area
+293,98103,Gas Works Park,27,6 a.m. - 10 p.m.,Restrooms
+293,98103,Gas Works Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+293,98103,Gas Works Park,34,6 a.m. - 10 p.m.,View
+293,98103,Gas Works Park,36,6 a.m. - 10 p.m.,Waterfront
+293,98103,Gas Works Park,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+409,98118,Genesee Park and Playfield,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+409,98118,Genesee Park and Playfield,58,4 a.m. - 11:30 p.m.,Hiking Trails
+409,98118,Genesee Park and Playfield,33,4 a.m. - 11:30 p.m.,Paths
+409,98118,Genesee Park and Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+409,98118,Genesee Park and Playfield,21,4 a.m. - 11:30 p.m.,Picnic Sites
+409,98118,Genesee Park and Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+409,98118,Genesee Park and Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+409,98118,Genesee Park and Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+409,98118,Genesee Park and Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+243,98117,Golden Gardens Park,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+243,98117,Golden Gardens Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+243,98117,Golden Gardens Park,11,4 a.m. - 11:30 p.m.,Creek
+243,98117,Golden Gardens Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+243,98117,Golden Gardens Park,14,4 a.m. - 11:30 p.m.,Fire Pit
+243,98117,Golden Gardens Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+243,98117,Golden Gardens Park,33,4 a.m. - 11:30 p.m.,Paths
+243,98117,Golden Gardens Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+243,98117,Golden Gardens Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+243,98117,Golden Gardens Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+243,98117,Golden Gardens Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+243,98117,Golden Gardens Park,27,4 a.m. - 11:30 p.m.,Restrooms
+243,98117,Golden Gardens Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+243,98117,Golden Gardens Park,34,4 a.m. - 11:30 p.m.,View
+243,98117,Golden Gardens Park,36,4 a.m. - 11:30 p.m.,Waterfront
+243,98117,Golden Gardens Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+307,98115,Green Lake Park,45,24 Hours,Baseball/Softball
+307,98115,Green Lake Park,3,24 Hours,Basketball (Full)
+307,98115,Green Lake Park,7,24 Hours,Boat Launch (Hand Carry)
+307,98115,Green Lake Park,10,24 Hours,Community Center
+307,98115,Green Lake Park,15,24 Hours,Fishing
+307,98115,Green Lake Park,53,24 Hours,Golf
+307,98115,Green Lake Park,5,24 Hours,Guarded Beach
+307,98115,Green Lake Park,33,24 Hours,Paths
+307,98115,Green Lake Park,42,24 Hours,Paths (ADA Compliant)
+307,98115,Green Lake Park,41,24 Hours,Play Area (ADA Compliant)
+307,98115,Green Lake Park,23,24 Hours,Pool (Indoor)
+307,98115,Green Lake Park,26,24 Hours,Rental Facility
+307,98115,Green Lake Park,27,24 Hours,Restrooms
+307,98115,Green Lake Park,40,24 Hours,Restrooms (ADA Compliant)
+307,98115,Green Lake Park,44,24 Hours,Soccer
+307,98115,Green Lake Park,29,24 Hours,Tennis Court (Outdoor)
+307,98115,Green Lake Park,35,24 Hours,Wading Pool or Water Feature
+307,98115,Green Lake Park,36,24 Hours,Waterfront
+307,98115,Green Lake Park,37,24 Hours,Woods
+4408,98117,Greenwood Park,33,4 a.m. - 11:30 p.m.,Paths
+4408,98117,Greenwood Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4157,98106,Greg Davis Park,33,4 a.m. - 11:30 p.m.,Paths
+4157,98106,Greg Davis Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+356,98112,Harrison Ridge Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+356,98112,Harrison Ridge Greenbelt,37,4 a.m. - 11:30 p.m.,Woods
+4412,98106,Herring's House Park (T'ul'altx),33,4 a.m. - 11:30 p.m.,Paths
+4412,98106,Herring's House Park (T'ul'altx),34,4 a.m. - 11:30 p.m.,View
+358,98104,Hing Hay Park,27,6 a.m. - 10 p.m.,Restrooms
+358,98104,Hing Hay Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+4413,98118,Hitt's Hill Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+4413,98118,Hitt's Hill Park,33,4 a.m. - 11:30 p.m.,Paths
+4426,98122,Homer Harris Park,33,4 a.m. - 11:30 p.m.,Paths
+4426,98122,Homer Harris Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4426,98122,Homer Harris Park,34,4 a.m. - 11:30 p.m.,View
+43,98122,Horiuchi Park,34,4 a.m. - 11:30 p.m.,View
+359,98122,Howell Park,34,4 a.m. - 11:30 p.m.,View
+359,98122,Howell Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4456,98125,Hubbard Homestead,74,4 a.m. - 11:30 p.m.,Adult Fitness Equipment
+4456,98125,Hubbard Homestead,70,4 a.m. - 11:30 p.m.,Skatespot
+4446,98102,I-5 Colonnade,52,4 a.m. - 11:30 p.m.,Bike Trail
+4446,98102,I-5 Colonnade,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+4446,98102,I-5 Colonnade,33,4 a.m. - 11:30 p.m.,Paths
+4446,98102,I-5 Colonnade,34,4 a.m. - 11:30 p.m.,View
+313,98119,Interbay Golf,53,4 a.m. - 11:30 p.m.,Golf
+3023,98102,Interlaken Park,52,4 a.m. - 11:30 p.m.,Bike Trail
+3023,98102,Interlaken Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+3023,98102,Interlaken Park,33,4 a.m. - 11:30 p.m.,Paths
+3023,98102,Interlaken Park,37,4 a.m. - 11:30 p.m.,Woods
+364,98104,International Children's Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+327,98125,Jackson Park Golf Course,53,4 a.m. - 11:30 p.m.,Golf
+327,98125,Jackson Park Golf Course,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+1000393,98112,Japanese Garden,17,,Garden
+114,98108,Jefferson Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+114,98108,Jefferson Park,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+114,98108,Jefferson Park,10,4 a.m. - 11:30 p.m.,Community Center
+114,98108,Jefferson Park,47,4 a.m. - 11:30 p.m.,Cricket
+114,98108,Jefferson Park,19,4 a.m. - 11:30 p.m.,Lawn Bowling
+114,98108,Jefferson Park,33,4 a.m. - 11:30 p.m.,Paths
+114,98108,Jefferson Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+114,98108,Jefferson Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+114,98108,Jefferson Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+114,98108,Jefferson Park,28,4 a.m. - 11:30 p.m.,Skatepark
+114,98108,Jefferson Park,44,4 a.m. - 11:30 p.m.,Soccer
+114,98108,Jefferson Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+114,98108,Jefferson Park,31,4 a.m. - 11:30 p.m.,Tennis Lights
+114,98108,Jefferson Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+114,98108,Jefferson Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+4153,98108,Jefferson Park Golf Course,53,4 a.m. - 11:30 p.m.,Golf
+429,98118,"John C. Little, Sr. Park",74,6 a.m. - 10 p.m.,Adult Fitness Equipment
+429,98118,"John C. Little, Sr. Park",3,6 a.m. - 10 p.m.,Basketball (Full)
+429,98118,"John C. Little, Sr. Park",4,6 a.m. - 10 p.m.,Basketball (Half)
+429,98118,"John C. Little, Sr. Park",33,6 a.m. - 10 p.m.,Paths
+429,98118,"John C. Little, Sr. Park",21,6 a.m. - 10 p.m.,Picnic Sites
+429,98118,"John C. Little, Sr. Park",41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+429,98118,"John C. Little, Sr. Park",27,6 a.m. - 10 p.m.,Restrooms
+429,98118,"John C. Little, Sr. Park",35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+397,98144,Judkins Park and Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+397,98144,Judkins Park and Playfield,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+397,98144,Judkins Park and Playfield,69,4 a.m. - 11:30 p.m.,Bike Polo
+397,98144,Judkins Park and Playfield,16,4 a.m. - 11:30 p.m.,Decorative Fountain
+397,98144,Judkins Park and Playfield,43,4 a.m. - 11:30 p.m.,Football
+397,98144,Judkins Park and Playfield,33,4 a.m. - 11:30 p.m.,Paths
+397,98144,Judkins Park and Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+397,98144,Judkins Park and Playfield,21,4 a.m. - 11:30 p.m.,Picnic Sites
+397,98144,Judkins Park and Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+397,98144,Judkins Park and Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+397,98144,Judkins Park and Playfield,70,4 a.m. - 11:30 p.m.,Skatespot
+397,98144,Judkins Park and Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+397,98144,Judkins Park and Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+3122,98144,Katie Black's Garden,17,4 a.m. - 11:30 p.m.,Garden
+3122,98144,Katie Black's Garden,33,4 a.m. - 11:30 p.m.,Paths
+342,98119,Kerry Park,4,24 hours,Basketball (Half)
+342,98119,Kerry Park,22,24 hours,Play Area
+342,98119,Kerry Park,34,24 hours,View
+342,98119,Kerry Park,9,24 hours,Weddings and Ceremonies
+314,98119,Kinnear Park,12,6 a.m. - 10 p.m.,Dog Off Leash Area
+314,98119,Kinnear Park,58,6 a.m. - 10 p.m.,Hiking Trails
+314,98119,Kinnear Park,18,6 a.m. - 10 p.m.,Historic Landmark
+314,98119,Kinnear Park,33,6 a.m. - 10 p.m.,Paths
+314,98119,Kinnear Park,22,6 a.m. - 10 p.m.,Play Area
+314,98119,Kinnear Park,27,6 a.m. - 10 p.m.,Restrooms
+314,98119,Kinnear Park,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+314,98119,Kinnear Park,34,6 a.m. - 10 p.m.,View
+314,98119,Kinnear Park,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+314,98119,Kinnear Park,37,6 a.m. - 10 p.m.,Woods
+4468,98117,Kirke Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4468,98117,Kirke Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+246,98199,Kiwanis Memorial Preserve Park,56,4 a.m. - 11:30 p.m.,Green Space
+311,98121,Myrtle Edwards Park,33,24 Hours,Paths
+246,98199,Kiwanis Memorial Preserve Park,37,4 a.m. - 11:30 p.m.,Woods
+3915,98104,Kobe Terrace,33,6 a.m. - 10 p.m.,Paths
+3915,98104,Kobe Terrace,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+415,98118,Kubota Garden,17,6 a.m. - 10 p.m.,Garden
+415,98118,Kubota Garden,18,6 a.m. - 10 p.m.,Historic Landmark
+415,98118,Kubota Garden,33,6 a.m. - 10 p.m.,Paths
+415,98118,Kubota Garden,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+487,98125,Lake City Mini Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+4439,98108,Lake People Park (Xacua'bs),58,4 a.m. - 11:30 p.m.,Hiking Trails
+4439,98108,Lake People Park (Xacua'bs),33,4 a.m. - 11:30 p.m.,Paths
+4439,98108,Lake People Park (Xacua'bs),34,4 a.m. - 11:30 p.m.,View
+344,98109,Lake Union Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+344,98109,Lake Union Park,68,4 a.m. - 11:30 p.m.,Model Boat Pond
+344,98109,Lake Union Park,33,4 a.m. - 11:30 p.m.,Paths
+344,98109,Lake Union Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+344,98109,Lake Union Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+344,98109,Lake Union Park,34,4 a.m. - 11:30 p.m.,View
+344,98109,Lake Union Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+344,98109,Lake Union Park,36,4 a.m. - 11:30 p.m.,Waterfront
+399,98112,Volunteer Park,27,6 a.m. - 10 p.m.,Restrooms
+411,98178,Lakeridge Park,11,4 a.m. - 11:30 p.m.,Creek
+411,98178,Lakeridge Park,56,4 a.m. - 11:30 p.m.,Green Space
+411,98178,Lakeridge Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+411,98178,Lakeridge Park,22,4 a.m. - 11:30 p.m.,Play Area
+411,98178,Lakeridge Park,37,4 a.m. - 11:30 p.m.,Woods
+3972,98178,Lakeridge Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+3972,98178,Lakeridge Playfield,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+3972,98178,Lakeridge Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+3972,98178,Lakeridge Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+365,98112,Lakeview Park,34,4 a.m. - 11:30 p.m.,View
+4040,98118,Lakewood Moorage,7,"<b>Tuesday thru Saturday</b><br> 11 a.m. - 5 p.m.<br>
+24-hour security gate with tenant access<br> 
+(Summer hours 10 a.m. - 5 p.m. Memorial Day thru Labor Day)",Boat Launch (Hand Carry)
+4040,98118,Lakewood Moorage,8,"<b>Tuesday thru Saturday</b><br> 11 a.m. - 5 p.m.<br>
+24-hour security gate with tenant access<br> 
+(Summer hours 10 a.m. - 5 p.m. Memorial Day thru Labor Day)",Boat Moorage
+4040,98118,Lakewood Moorage,36,"<b>Tuesday thru Saturday</b><br> 11 a.m. - 5 p.m.<br>
+24-hour security gate with tenant access<br> 
+(Summer hours 10 a.m. - 5 p.m. Memorial Day thru Labor Day)",Waterfront
+316,98199,Lawton Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+316,98199,Lawton Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+316,98199,Lawton Park,22,4 a.m. - 11:30 p.m.,Play Area
+316,98199,Lawton Park,44,4 a.m. - 11:30 p.m.,Soccer
+316,98199,Lawton Park,37,4 a.m. - 11:30 p.m.,Woods
+367,98122,Leschi Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+367,98122,Leschi Park,8,4 a.m. - 11:30 p.m.,Boat Moorage
+367,98122,Leschi Park,33,4 a.m. - 11:30 p.m.,Paths
+367,98122,Leschi Park,22,4 a.m. - 11:30 p.m.,Play Area
+367,98122,Leschi Park,27,4 a.m. - 11:30 p.m.,Restrooms
+367,98122,Leschi Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+367,98122,Leschi Park,34,4 a.m. - 11:30 p.m.,View
+367,98122,Leschi Park,37,4 a.m. - 11:30 p.m.,Woods
+263,98122,Leschi-Lake Dell Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+263,98122,Leschi-Lake Dell Natural Area,58,4 a.m. - 11:30 p.m.,Hiking Trails
+286,98103,Licton Springs Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+286,98103,Licton Springs Park,33,4 a.m. - 11:30 p.m.,Paths
+286,98103,Licton Springs Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+286,98103,Licton Springs Park,27,4 a.m. - 11:30 p.m.,Restrooms
+286,98103,Licton Springs Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+286,98103,Licton Springs Park,37,4 a.m. - 11:30 p.m.,Woods
+460,98136,Lincoln Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+460,98136,Lincoln Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+460,98136,Lincoln Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+460,98136,Lincoln Park,54,4 a.m. - 11:30 p.m.,Horseshoe Pits
+460,98136,Lincoln Park,33,4 a.m. - 11:30 p.m.,Paths
+460,98136,Lincoln Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+318,98199,Ella Bailey Park,34,4 a.m. - 11:30 p.m.,View
+460,98136,Lincoln Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+460,98136,Lincoln Park,24,4 a.m. - 11:30 p.m.,Pool (Outdoor)
+460,98136,Lincoln Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+460,98136,Lincoln Park,27,4 a.m. - 11:30 p.m.,Restrooms
+460,98136,Lincoln Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+460,98136,Lincoln Park,44,4 a.m. - 11:30 p.m.,Soccer
+460,98136,Lincoln Park,34,4 a.m. - 11:30 p.m.,View
+460,98136,Lincoln Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+460,98136,Lincoln Park,37,4 a.m. - 11:30 p.m.,Woods
+4419,98103,Linden Orchard Park,22,4 a.m. - 11:30 p.m.,Play Area
+4419,98103,Linden Orchard Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+297,98125,Little Brook Park,11,4 a.m. - 11:30 p.m.,Creek
+297,98125,Little Brook Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+297,98125,Little Brook Park,27,4 a.m. - 11:30 p.m.,Restrooms
+301,98177,Llandover Woods Greenspace,56,4 a.m. - 11:30 p.m.,Green Space
+301,98177,Llandover Woods Greenspace,37,4 a.m. - 11:30 p.m.,Woods
+461,98136,Lowman Beach Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+461,98136,Lowman Beach Park,22,4 a.m. - 11:30 p.m.,Play Area
+461,98136,Lowman Beach Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+461,98136,Lowman Beach Park,34,4 a.m. - 11:30 p.m.,View
+461,98136,Lowman Beach Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4075,98102,Lynn Street Mini Park,34,4 a.m. - 11:30 p.m.,View
+4422,98109,MacLean Park,33,4 a.m. - 11:30 p.m.,Paths
+4422,98109,MacLean Park,34,4 a.m. - 11:30 p.m.,View
+369,98112,Madison Park,5,4 a.m. - 11:30 p.m.,Guarded Beach
+369,98112,Madison Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+369,98112,Madison Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+369,98112,Madison Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+369,98112,Madison Park,31,4 a.m. - 11:30 p.m.,Tennis Lights
+369,98112,Madison Park,34,4 a.m. - 11:30 p.m.,View
+369,98112,Madison Park,36,4 a.m. - 11:30 p.m.,Waterfront
+369,98112,Madison Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+4441,98112,Madison Park North Beach,22,4 a.m. - 11:30 p.m.,Play Area
+4441,98112,Madison Park North Beach,34,4 a.m. - 11:30 p.m.,View
+4441,98112,Madison Park North Beach,36,4 a.m. - 11:30 p.m.,Waterfront
+4005,98122,Madrona Briar Patch,33,4 a.m. - 11:30 p.m.,Paths
+370,98122,Madrona Park,11,4 a.m. - 11:30 p.m.,Creek
+370,98122,Madrona Park,5,4 a.m. - 11:30 p.m.,Guarded Beach
+370,98122,Madrona Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+370,98122,Madrona Park,33,4 a.m. - 11:30 p.m.,Paths
+370,98122,Madrona Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+370,98122,Madrona Park,22,4 a.m. - 11:30 p.m.,Play Area
+370,98122,Madrona Park,27,4 a.m. - 11:30 p.m.,Restrooms
+370,98122,Madrona Park,34,4 a.m. - 11:30 p.m.,View
+370,98122,Madrona Park,36,4 a.m. - 11:30 p.m.,Waterfront
+370,98122,Madrona Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+370,98122,Madrona Park,37,4 a.m. - 11:30 p.m.,Woods
+492,98199,Magnolia Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+492,98199,Magnolia Greenbelt,37,4 a.m. - 11:30 p.m.,Woods
+747,98119,Magnolia Manor Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+317,98199,Magnolia Park,10,4 a.m. - 11:30 p.m.,Community Center
+317,98199,Magnolia Park,33,4 a.m. - 11:30 p.m.,Paths
+317,98199,Magnolia Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+317,98199,Magnolia Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+317,98199,Magnolia Park,27,4 a.m. - 11:30 p.m.,Restrooms
+317,98199,Magnolia Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+317,98199,Magnolia Park,34,4 a.m. - 11:30 p.m.,View
+317,98199,Magnolia Park,36,4 a.m. - 11:30 p.m.,Waterfront
+317,98199,Magnolia Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+317,98199,Magnolia Park,37,4 a.m. - 11:30 p.m.,Woods
+2970,98144,Magnolia Tidelands Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+4434,98125,Maple Leaf Community Garden,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+1630,98108,Maple School Ravine,56,4 a.m. - 11:30 p.m.,Green Space
+1630,98108,Maple School Ravine,37,4 a.m. - 11:30 p.m.,Woods
+4447,98108,Marra-Desimone Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+320,98119,Marshall Park,34,4 a.m. - 11:30 p.m.,View
+432,98115,Martha Washington Park,7,6 a.m. - 10 p.m.,Boat Launch (Hand Carry)
+432,98115,Martha Washington Park,58,6 a.m. - 10 p.m.,Hiking Trails
+432,98115,Martha Washington Park,33,6 a.m. - 10 p.m.,Paths
+432,98115,Martha Washington Park,34,6 a.m. - 10 p.m.,View
+432,98115,Martha Washington Park,36,6 a.m. - 10 p.m.,Waterfront
+3923,98144,"Martin Luther King, Jr. Memorial",33,4 a.m. - 11:30 p.m.,Paths
+3923,98144,"Martin Luther King, Jr. Memorial",34,4 a.m. - 11:30 p.m.,View
+347,98115,Matthews Beach Park,7,6 a.m. - 10 p.m.,Boat Launch (Hand Carry)
+347,98115,Matthews Beach Park,11,6 a.m. - 10 p.m.,Creek
+347,98115,Matthews Beach Park,5,6 a.m. - 10 p.m.,Guarded Beach
+347,98115,Matthews Beach Park,58,6 a.m. - 10 p.m.,Hiking Trails
+347,98115,Matthews Beach Park,33,6 a.m. - 10 p.m.,Paths
+347,98115,Matthews Beach Park,21,6 a.m. - 10 p.m.,Picnic Sites
+347,98115,Matthews Beach Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+347,98115,Matthews Beach Park,27,6 a.m. - 10 p.m.,Restrooms
+347,98115,Matthews Beach Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+347,98115,Matthews Beach Park,34,6 a.m. - 10 p.m.,View
+347,98115,Matthews Beach Park,36,6 a.m. - 10 p.m.,Waterfront
+321,98109,Mayfair Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+321,98109,Mayfair Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4013,98112,McGilvra Boulevard,34,4 a.m. - 11:30 p.m.,View
+268,98116,Me-Kwa-Mooks Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+268,98116,Me-Kwa-Mooks Natural Area,37,4 a.m. - 11:30 p.m.,Woods
+473,98116,Me-Kwa-Mooks Park,33,6 a.m. - 11 p.m.,Paths
+473,98116,Me-Kwa-Mooks Park,21,6 a.m. - 11 p.m.,Picnic Sites
+473,98116,Me-Kwa-Mooks Park,37,6 a.m. - 11 p.m.,Woods
+291,98133,Mineral Springs Park,62,4 a.m. - 10 p.m.,Disc Golf
+291,98133,Mineral Springs Park,33,4 a.m. - 10 p.m.,Paths
+277,98115,Mock Creek Ravine,56,4 a.m. - 11:30 p.m.,Green Space
+419,98144,Mt. Baker Park,11,6 a.m. - 10 p.m.,Creek
+419,98144,Mt. Baker Park,15,6 a.m. - 10 p.m.,Fishing
+419,98144,Mt. Baker Park,5,6 a.m. - 10 p.m.,Guarded Beach
+419,98144,Mt. Baker Park,58,6 a.m. - 10 p.m.,Hiking Trails
+419,98144,Mt. Baker Park,33,6 a.m. - 10 p.m.,Paths
+419,98144,Mt. Baker Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+419,98144,Mt. Baker Park,27,6 a.m. - 10 p.m.,Restrooms
+419,98144,Mt. Baker Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+419,98144,Mt. Baker Park,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+419,98144,Mt. Baker Park,31,6 a.m. - 10 p.m.,Tennis Lights
+419,98144,Mt. Baker Park,34,6 a.m. - 10 p.m.,View
+419,98144,Mt. Baker Park,36,6 a.m. - 10 p.m.,Waterfront
+419,98144,Mt. Baker Park,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+419,98144,Mt. Baker Park,37,6 a.m. - 10 p.m.,Woods
+4019,98144,Mt. Claire Park,34,4 a.m. - 11:30 p.m.,View
+311,98121,Myrtle Edwards Park,52,24 Hours,Bike Trail
+311,98121,Myrtle Edwards Park,42,24 Hours,Paths (ADA Compliant)
+311,98121,Myrtle Edwards Park,34,24 Hours,View
+311,98121,Myrtle Edwards Park,36,24 Hours,Waterfront
+4463,98126,Myrtle Reservoir,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4403,98122,Nora's Woods,33,4 a.m. - 11:30 p.m.,Paths
+247,98117,North Beach Park,11,4 a.m. - 11:30 p.m.,Creek
+247,98117,North Beach Park,56,4 a.m. - 11:30 p.m.,Green Space
+247,98117,North Beach Park,37,4 a.m. - 11:30 p.m.,Woods
+2956,98105,North Passage Point Park,34,4 a.m. - 11:30 p.m.,View
+2956,98105,North Passage Point Park,36,4 a.m. - 11:30 p.m.,Waterfront
+361,98125,Northacres Park,45,6 a.m. - 10 p.m.,Baseball/Softball
+361,98125,Northacres Park,12,6 a.m. - 10 p.m.,Dog Off Leash Area
+361,98125,Northacres Park,58,6 a.m. - 10 p.m.,Hiking Trails
+361,98125,Northacres Park,33,6 a.m. - 10 p.m.,Paths
+361,98125,Northacres Park,21,6 a.m. - 10 p.m.,Picnic Sites
+361,98125,Northacres Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+361,98125,Northacres Park,27,6 a.m. - 10 p.m.,Restrooms
+361,98125,Northacres Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+361,98125,Northacres Park,44,6 a.m. - 10 p.m.,Soccer
+361,98125,Northacres Park,35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+361,98125,Northacres Park,37,6 a.m. - 10 p.m.,Woods
+279,98109,Northeast Queen Anne Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+279,98109,Northeast Queen Anne Greenbelt,58,4 a.m. - 11:30 p.m.,Hiking Trails
+279,98109,Northeast Queen Anne Greenbelt,37,4 a.m. - 11:30 p.m.,Woods
+4445,98125,Northgate Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+4445,98125,Northgate Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4452,98105,Northlake Park,34,4 a.m. - 11:30 p.m.,View
+4452,98105,Northlake Park,36,4 a.m. - 11:30 p.m.,Waterfront
+4161,98107,Northwest 60th St. Viewpoint,34,4 a.m. - 11:30 p.m.,View
+322,98109,Observatory Courts,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+323,98104,Occidental Square,16,6 a.m. - 10 p.m.,Decorative Fountain
+323,98104,Occidental Square,33,6 a.m. - 10 p.m.,Paths
+323,98104,Occidental Square,27,6 a.m. - 10 p.m.,Restrooms
+3005,98199,Open Water Park,32,4 a.m. - 11:30 p.m.,Tidelands
+3005,98199,Open Water Park,36,4 a.m. - 11:30 p.m.,Waterfront
+300,98136,Orchard Street Ravine,56,4 a.m. - 11:30 p.m.,Green Space
+4416,98108,Oxbow Park,22,4 a.m. - 11:30 p.m.,Play Area
+4416,98108,Oxbow Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+324,98119,Parsons Gardens,17,6 a.m. - 10 p.m.,Garden
+324,98119,Parsons Gardens,18,6 a.m. - 10 p.m.,Historic Landmark
+324,98119,Parsons Gardens,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+4029,98105,Peace Park,34,4 a.m. - 11:30 p.m.,View
+237,98136,Pelly Place Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+274,98101,Piers 62 and 63,34,6 a.m. - 10 p.m.,View
+282,98106,Pigeon Point Park,56,4 a.m. - 11:30 p.m.,Green Space
+282,98106,Pigeon Point Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+282,98106,Pigeon Point Park,37,4 a.m. - 11:30 p.m.,Woods
+325,98104,Pioneer Square,16,6 a.m. - 10 p.m.,Decorative Fountain
+325,98104,Pioneer Square,18,6 a.m. - 10 p.m.,Historic Landmark
+275,98133,Pipers Creek Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+387,98122,Plum Tree Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4000,98101,Plymouth Pillars Park,12,6 a.m. - 10 p.m.,Dog Off Leash Area
+4000,98101,Plymouth Pillars Park,34,6 a.m. - 10 p.m.,View
+345,98112,Powell Barnett Park,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+345,98112,Powell Barnett Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+345,98112,Powell Barnett Park,27,4 a.m. - 11:30 p.m.,Restrooms
+345,98112,Powell Barnett Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+345,98112,Powell Barnett Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+390,98144,Pratt Park,3,6 a.m. - 10 p.m.,Basketball (Full)
+390,98144,Pratt Park,4,6 a.m. - 10 p.m.,Basketball (Half)
+390,98144,Pratt Park,16,6 a.m. - 10 p.m.,Decorative Fountain
+390,98144,Pratt Park,33,6 a.m. - 10 p.m.,Paths
+390,98144,Pratt Park,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+390,98144,Pratt Park,21,6 a.m. - 10 p.m.,Picnic Sites
+390,98144,Pratt Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+390,98144,Pratt Park,27,6 a.m. - 10 p.m.,Restrooms
+390,98144,Pratt Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+390,98144,Pratt Park,35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+326,98104,Prefontaine Place,16,6 a.m. - 10 p.m.,Decorative Fountain
+357,98112,Prentis I. Frazier Park,4,6 a.m. - 10 p.m.,Basketball (Half)
+357,98112,Prentis I. Frazier Park,22,6 a.m. - 10 p.m.,Play Area
+420,98118,Pritchard Island Beach,5,6 a.m. - 10 p.m.,Guarded Beach
+420,98118,Pritchard Island Beach,33,6 a.m. - 10 p.m.,Paths
+420,98118,Pritchard Island Beach,26,6 a.m. - 10 p.m.,Rental Facility
+420,98118,Pritchard Island Beach,27,6 a.m. - 10 p.m.,Restrooms
+420,98118,Pritchard Island Beach,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+420,98118,Pritchard Island Beach,34,6 a.m. - 10 p.m.,View
+420,98118,Pritchard Island Beach,36,6 a.m. - 10 p.m.,Waterfront
+420,98118,Pritchard Island Beach,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+4158,98106,Puget Boulevard Commons,19,4 a.m. - 11:30 p.m.,Lawn Bowling
+4158,98106,Puget Boulevard Commons,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+4158,98106,Puget Boulevard Commons,37,4 a.m. - 11:30 p.m.,Woods
+3993,98106,Puget Creek Greenspace,56,4 a.m. - 11:30 p.m.,Green Space
+462,98106,Puget Park,11,4 a.m. - 11:30 p.m.,Creek
+462,98106,Puget Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+462,98106,Puget Park,37,4 a.m. - 11:30 p.m.,Woods
+4045,98115,Rainbow Point,33,4 a.m. - 11:30 p.m.,Paths
+4045,98115,Rainbow Point,34,4 a.m. - 11:30 p.m.,View
+290,98118,Sturtevant Ravine,56,4 a.m. - 11:30 p.m.,Green Space
+391,98105,Ravenna Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+391,98105,Ravenna Park,11,4 a.m. - 11:30 p.m.,Creek
+391,98105,Ravenna Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+391,98105,Ravenna Park,33,4 a.m. - 11:30 p.m.,Paths
+391,98105,Ravenna Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+391,98105,Ravenna Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+391,98105,Ravenna Park,27,4 a.m. - 11:30 p.m.,Restrooms
+391,98105,Ravenna Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+391,98105,Ravenna Park,44,4 a.m. - 11:30 p.m.,Soccer
+391,98105,Ravenna Park,30,4 a.m. - 11:30 p.m.,Tennis Backboard (Outdoor)
+391,98105,Ravenna Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+391,98105,Ravenna Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+391,98105,Ravenna Park,37,4 a.m. - 11:30 p.m.,Woods
+4411,98105,Ravenna Woods,56,4 a.m. - 11:30 p.m.,Green Space
+488,98115,Ravenna-Eckstein Park,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+488,98115,Ravenna-Eckstein Park,10,4 a.m. - 11:30 p.m.,Community Center
+488,98115,Ravenna-Eckstein Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+488,98115,Ravenna-Eckstein Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+336,98121,Regrade Park,12,6 a.m. - 10 p.m.,Dog Off Leash Area
+336,98121,Regrade Park,20,6 a.m. - 10 p.m.,Pesticide Free
+463,98106,Riverview Playfield,45,6 a.m. - 10 p.m.,Baseball/Softball
+463,98106,Riverview Playfield,3,6 a.m. - 10 p.m.,Basketball (Full)
+463,98106,Riverview Playfield,22,6 a.m. - 10 p.m.,Play Area
+463,98106,Riverview Playfield,27,6 a.m. - 10 p.m.,Restrooms
+463,98106,Riverview Playfield,44,6 a.m. - 10 p.m.,Soccer
+463,98106,Riverview Playfield,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+463,98106,Riverview Playfield,37,6 a.m. - 10 p.m.,Woods
+379,98102,Roanoke Park,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+379,98102,Roanoke Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+9064,98102,Roanoke St. Mini Park,34,4 a.m. - 11:30 p.m.,View
+464,98126,Roxhill Park,45,6 a.m. - 10 p.m.,Baseball/Softball
+464,98126,Roxhill Park,21,6 a.m. - 10 p.m.,Picnic Sites
+464,98126,Roxhill Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+464,98126,Roxhill Park,27,6 a.m. - 10 p.m.,Restrooms
+464,98126,Roxhill Park,28,6 a.m. - 10 p.m.,Skatepark
+464,98126,Roxhill Park,44,6 a.m. - 10 p.m.,Soccer
+249,98117,Salmon Bay Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+249,98117,Salmon Bay Park,27,4 a.m. - 11:30 p.m.,Restrooms
+4242,98122,Sam Smith Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4242,98122,Sam Smith Park,27,4 a.m. - 11:30 p.m.,Restrooms
+4242,98122,Sam Smith Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+4242,98122,Sam Smith Park,44,4 a.m. - 11:30 p.m.,Soccer
+4242,98122,Sam Smith Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+4242,98122,Sam Smith Park,34,4 a.m. - 11:30 p.m.,View
+465,98116,Schmitz Preserve Park,11,6 a.m. - 10 p.m.,Creek
+465,98116,Schmitz Preserve Park,58,6 a.m. - 10 p.m.,Hiking Trails
+465,98116,Schmitz Preserve Park,33,6 a.m. - 10 p.m.,Paths
+465,98116,Schmitz Preserve Park,37,6 a.m. - 10 p.m.,Woods
+455,98126,Seacrest Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+455,98126,Seacrest Park,15,4 a.m. - 11:30 p.m.,Fishing
+455,98126,Seacrest Park,71,4 a.m. - 11:30 p.m.,Marination Ma Kai
+455,98126,Seacrest Park,63,4 a.m. - 11:30 p.m.,Scuba Diving
+455,98126,Seacrest Park,34,4 a.m. - 11:30 p.m.,View
+455,98126,Seacrest Park,36,4 a.m. - 11:30 p.m.,Waterfront
+466,98146,Seola Park,56,4 a.m. - 11:30 p.m.,Green Space
+466,98146,Seola Park,75,4 a.m. - 11:30 p.m.,NO Beach Access
+466,98146,Seola Park,34,4 a.m. - 11:30 p.m.,View
+466,98146,Seola Park,37,4 a.m. - 11:30 p.m.,Woods
+428,98118,Seward Park,7,6 a.m. - 10 p.m.,Boat Launch (Hand Carry)
+428,98118,Seward Park,13,6 a.m. - 10 p.m.,Environmental Learning Center
+428,98118,Seward Park,5,6 a.m. - 10 p.m.,Guarded Beach
+428,98118,Seward Park,58,6 a.m. - 10 p.m.,Hiking Trails
+428,98118,Seward Park,33,6 a.m. - 10 p.m.,Paths
+428,98118,Seward Park,42,6 a.m. - 10 p.m.,Paths (ADA Compliant)
+428,98118,Seward Park,21,6 a.m. - 10 p.m.,Picnic Sites
+428,98118,Seward Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+428,98118,Seward Park,27,6 a.m. - 10 p.m.,Restrooms
+428,98118,Seward Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+428,98118,Seward Park,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+428,98118,Seward Park,34,6 a.m. - 10 p.m.,View
+428,98118,Seward Park,36,6 a.m. - 10 p.m.,Waterfront
+428,98118,Seward Park,9,6 a.m. - 10 p.m.,Weddings and Ceremonies
+428,98118,Seward Park,37,6 a.m. - 10 p.m.,Woods
+4433,98199,Smith Cove,34,4 a.m. - 11:30 p.m.,View
+4433,98199,Smith Cove,36,4 a.m. - 11:30 p.m.,Waterfront
+4453,98136,Solstice Park,33,4 a.m. - 11:30 p.m.,Paths
+4453,98136,Solstice Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+4453,98136,Solstice Park,30,4 a.m. - 11:30 p.m.,Tennis Backboard (Outdoor)
+4453,98136,Solstice Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+4453,98136,Solstice Park,31,4 a.m. - 11:30 p.m.,Tennis Lights
+3987,98119,Soundview Terrace,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+377,98102,South Passage Point Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+377,98102,South Passage Point Park,34,4 a.m. - 11:30 p.m.,View
+377,98102,South Passage Point Park,36,4 a.m. - 11:30 p.m.,Waterfront
+381,98122,Spring Street Mini Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3117,98122,Spruce Street Mini Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+2848,98102,St. Mark's Greenbelt,11,4 a.m. - 11:30 p.m.,Creek
+2848,98102,St. Mark's Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+2848,98102,St. Mark's Greenbelt,37,4 a.m. - 11:30 p.m.,Woods
+425,98118,Stan Sayres Memorial Park,7,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Boat Launch (Hand Carry)
+425,98118,Stan Sayres Memorial Park,6,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Boat Launch (Motorized)
+425,98118,Stan Sayres Memorial Park,15,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Fishing
+425,98118,Stan Sayres Memorial Park,33,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Paths
+425,98118,Stan Sayres Memorial Park,42,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Paths (ADA Compliant)
+425,98118,Stan Sayres Memorial Park,36,"<p><strong>6:00 a.m. to 10:00 p.m. </strong><br>
+  Gates locked between 10:00 p.m. and 6 a.m. <br>
+  With overnight parking pass vehicles with boat trailers may  remain in the parking lot after closing with a four night maximum.</p>",Waterfront
+592,98144,Sturgus Park,33,4 a.m. - 11:30 p.m.,Paths
+592,98144,Sturgus Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+592,98144,Sturgus Park,34,4 a.m. - 11:30 p.m.,View
+3903,98103,Sunnyside Ave N Boat Ramp,7,24 Hours,Boat Launch (Hand Carry)
+3903,98103,Sunnyside Ave N Boat Ramp,6,24 Hours,Boat Launch (Motorized)
+3903,98103,Sunnyside Ave N Boat Ramp,34,24 Hours,View
+252,98117,Sunset Hill Park,34,4 a.m. - 11:30 p.m.,View
+252,98117,Sunset Hill Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+234,98119,SW Queen Anne Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+234,98119,SW Queen Anne Greenbelt,37,4 a.m. - 11:30 p.m.,Woods
+3889,98102,Terry Pettus Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+3889,98102,Terry Pettus Park,15,4 a.m. - 11:30 p.m.,Fishing
+3889,98102,Terry Pettus Park,34,4 a.m. - 11:30 p.m.,View
+3889,98102,Terry Pettus Park,36,4 a.m. - 11:30 p.m.,Waterfront
+343,98199,Thorndyke Park,36,4 a.m. - 11:30 p.m.,Waterfront
+416,98125,Thornton Creek Park #1,11,4 a.m. - 11:30 p.m.,Creek
+416,98125,Thornton Creek Park #1,56,4 a.m. - 11:30 p.m.,Green Space
+416,98125,Thornton Creek Park #1,37,4 a.m. - 11:30 p.m.,Woods
+4405,98107,Thyme Patch Park,33,4 a.m. - 11:30 p.m.,Paths
+4405,98107,Thyme Patch Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+3909,98121,Tilikum Place,16,6 a.m. - 10 p.m.,Decorative Fountain
+3909,98121,Tilikum Place,18,6 a.m. - 10 p.m.,Historic Landmark
+4421,98109,Trolley Hill Park,22,4 a.m. - 11:30 p.m.,Play Area
+4421,98109,Trolley Hill Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+4421,98109,Trolley Hill Park,34,4 a.m. - 11:30 p.m.,View
+338,98121,Victor Steinbrueck Park,27,6 a.m. - 10 p.m.,Restrooms
+338,98121,Victor Steinbrueck Park,34,6 a.m. - 10 p.m.,View
+4443,98125,Victory Creek Park,11,4 a.m. - 11:30 p.m.,Creek
+4443,98125,Victory Creek Park,22,4 a.m. - 11:30 p.m.,Play Area
+4443,98125,Victory Creek Park,37,4 a.m. - 11:30 p.m.,Woods
+444,98115,View Ridge Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+444,98115,View Ridge Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+444,98115,View Ridge Playfield,33,4 a.m. - 11:30 p.m.,Paths
+444,98115,View Ridge Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+444,98115,View Ridge Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+444,98115,View Ridge Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+444,98115,View Ridge Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+444,98115,View Ridge Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+3098,98112,Viretta Park,37,4 a.m. - 11:30 p.m.,Woods
+399,98112,Volunteer Park,18,6 a.m. - 10 p.m.,Historic Landmark
+399,98112,Volunteer Park,33,6 a.m. - 10 p.m.,Paths
+399,98112,Volunteer Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+399,98112,Volunteer Park,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+399,98112,Volunteer Park,30,6 a.m. - 10 p.m.,Tennis Backboard (Outdoor)
+399,98112,Volunteer Park,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+399,98112,Volunteer Park,31,6 a.m. - 10 p.m.,Tennis Lights
+399,98112,Volunteer Park,35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+1000399,98112,Volunteer Park Conservatory,17,,Garden
+1000399,98112,Volunteer Park Conservatory,9,,Weddings and Ceremonies
+763,98109,Ward Springs Park,33,4 a.m. - 11:30 p.m.,Paths
+763,98109,Ward Springs Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+763,98109,Ward Springs Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+763,98109,Ward Springs Park,34,4 a.m. - 11:30 p.m.,View
+398,98115,Warren G. Magnuson Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+398,98115,Warren G. Magnuson Park,52,4 a.m. - 11:30 p.m.,Bike Trail
+398,98115,Warren G. Magnuson Park,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+398,98115,Warren G. Magnuson Park,6,4 a.m. - 11:30 p.m.,Boat Launch (Motorized)
+398,98115,Warren G. Magnuson Park,10,4 a.m. - 11:30 p.m.,Community Center
+398,98115,Warren G. Magnuson Park,47,4 a.m. - 11:30 p.m.,Cricket
+398,98115,Warren G. Magnuson Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+398,98115,Warren G. Magnuson Park,5,4 a.m. - 11:30 p.m.,Guarded Beach
+398,98115,Warren G. Magnuson Park,58,4 a.m. - 11:30 p.m.,Hiking Trails
+398,98115,Warren G. Magnuson Park,59,4 a.m. - 11:30 p.m.,Lacrosse
+398,98115,Warren G. Magnuson Park,33,4 a.m. - 11:30 p.m.,Paths
+398,98115,Warren G. Magnuson Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+398,98115,Warren G. Magnuson Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+398,98115,Warren G. Magnuson Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+398,98115,Warren G. Magnuson Park,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+398,98115,Warren G. Magnuson Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+398,98115,Warren G. Magnuson Park,27,4 a.m. - 11:30 p.m.,Restrooms
+398,98115,Warren G. Magnuson Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+398,98115,Warren G. Magnuson Park,61,4 a.m. - 11:30 p.m.,Rugby
+398,98115,Warren G. Magnuson Park,44,4 a.m. - 11:30 p.m.,Soccer
+398,98115,Warren G. Magnuson Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+398,98115,Warren G. Magnuson Park,60,4 a.m. - 11:30 p.m.,Ultimate
+375,98112,West Montlake Park,34,4 a.m. - 11:30 p.m.,View
+398,98115,Warren G. Magnuson Park,34,4 a.m. - 11:30 p.m.,View
+398,98115,Warren G. Magnuson Park,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+398,98115,Warren G. Magnuson Park,36,4 a.m. - 11:30 p.m.,Waterfront
+393,98112,Washington Park Arboretum,7,4 a.m. - 11:30 p.m.,Boat Launch (Hand Carry)
+393,98112,Washington Park Arboretum,11,4 a.m. - 11:30 p.m.,Creek
+393,98112,Washington Park Arboretum,15,4 a.m. - 11:30 p.m.,Fishing
+393,98112,Washington Park Arboretum,17,4 a.m. - 11:30 p.m.,Garden
+393,98112,Washington Park Arboretum,58,4 a.m. - 11:30 p.m.,Hiking Trails
+393,98112,Washington Park Arboretum,33,4 a.m. - 11:30 p.m.,Paths
+393,98112,Washington Park Arboretum,22,4 a.m. - 11:30 p.m.,Play Area
+393,98112,Washington Park Arboretum,27,4 a.m. - 11:30 p.m.,Restrooms
+393,98112,Washington Park Arboretum,34,4 a.m. - 11:30 p.m.,View
+393,98112,Washington Park Arboretum,36,4 a.m. - 11:30 p.m.,Waterfront
+393,98112,Washington Park Arboretum,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+393,98112,Washington Park Arboretum,37,4 a.m. - 11:30 p.m.,Woods
+1100393,98112,Washington Park Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+1100393,98112,Washington Park Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+4165,98104,Washington Street Public Boat Landing,18,6 a.m. - 10 p.m.,Historic Landmark
+4165,98104,Washington Street Public Boat Landing,34,6 a.m. - 10 p.m.,View
+4165,98104,Washington Street Public Boat Landing,36,6 a.m. - 10 p.m.,Waterfront
+3973,98101,Waterfront Park,15,6 a.m. - 10 p.m.,Fishing
+3973,98101,Waterfront Park,34,6 a.m. - 10 p.m.,View
+3973,98101,Waterfront Park,36,6 a.m. - 10 p.m.,Waterfront
+3966,98116,Weather Watch Park,34,4 a.m. - 11:30 p.m.,View
+3966,98116,Weather Watch Park,36,4 a.m. - 11:30 p.m.,Waterfront
+3894,98117,Webster Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+3894,98117,Webster Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3694,98119,West Ewing Mini Park,33,4 a.m. - 11:30 p.m.,Paths
+3694,98119,West Ewing Mini Park,34,4 a.m. - 11:30 p.m.,View
+3694,98119,West Ewing Mini Park,36,4 a.m. - 11:30 p.m.,Waterfront
+375,98112,West Montlake Park,20,4 a.m. - 11:30 p.m.,Pesticide Free
+375,98112,West Montlake Park,36,4 a.m. - 11:30 p.m.,Waterfront
+469,98126,West Seattle Golf Course,53,4 a.m. - 11:30 p.m.,Golf
+469,98126,West Seattle Golf Course,27,4 a.m. - 11:30 p.m.,Restrooms
+469,98126,West Seattle Golf Course,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+468,98106,Westcrest Park,12,6 a.m. - 10 p.m.,Dog Off Leash Area
+468,98106,Westcrest Park,58,6 a.m. - 10 p.m.,Hiking Trails
+468,98106,Westcrest Park,33,6 a.m. - 10 p.m.,Paths
+468,98106,Westcrest Park,21,6 a.m. - 10 p.m.,Picnic Sites
+468,98106,Westcrest Park,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+468,98106,Westcrest Park,27,6 a.m. - 10 p.m.,Restrooms
+468,98106,Westcrest Park,37,6 a.m. - 10 p.m.,Woods
+494,98109,Westlake Greenbelt,56,4 a.m. - 11:30 p.m.,Green Space
+332,98101,Westlake Park,16,6 a.m. - 10 p.m.,Decorative Fountain
+332,98101,Westlake Park,22,6 a.m. - 10 p.m.,Play Area
+278,98109,Wolf Creek Ravine Natural Area,56,4 a.m. - 11:30 p.m.,Green Space
+292,98103,Woodland Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+292,98103,Woodland Park,67,4 a.m. - 11:30 p.m.,BMX Dirt Jumps
+292,98103,Woodland Park,16,4 a.m. - 11:30 p.m.,Decorative Fountain
+292,98103,Woodland Park,12,4 a.m. - 11:30 p.m.,Dog Off Leash Area
+292,98103,Woodland Park,54,4 a.m. - 11:30 p.m.,Horseshoe Pits
+292,98103,Woodland Park,19,4 a.m. - 11:30 p.m.,Lawn Bowling
+292,98103,Woodland Park,33,4 a.m. - 11:30 p.m.,Paths
+292,98103,Woodland Park,21,4 a.m. - 11:30 p.m.,Picnic Sites
+292,98103,Woodland Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+292,98103,Woodland Park,26,4 a.m. - 11:30 p.m.,Rental Facility
+292,98103,Woodland Park,27,4 a.m. - 11:30 p.m.,Restrooms
+292,98103,Woodland Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+292,98103,Woodland Park,28,4 a.m. - 11:30 p.m.,Skatepark
+292,98103,Woodland Park,44,4 a.m. - 11:30 p.m.,Soccer
+292,98103,Woodland Park,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+292,98103,Woodland Park,31,4 a.m. - 11:30 p.m.,Tennis Lights
+292,98103,Woodland Park,46,4 a.m. - 11:30 p.m.,Track
+292,98103,Woodland Park,37,4 a.m. - 11:30 p.m.,Woods
+1000292,98103,Woodland Park Rose Garden,17,7 a.m. - 10 p.m.,Garden
+1000292,98103,Woodland Park Rose Garden,9,7 a.m. - 10 p.m.,Weddings and Ceremonies
+200,98103,Woodland Park Zoo,17,4 a.m. - 11:30 p.m.,Garden
+580,98144,York Park,33,4 a.m. - 11:30 p.m.,Paths
+580,98144,York Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+352,98125,Meadowbrook Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+446,98116,Alki Playground,44,4 a.m. - 11:30 p.m.,Soccer
+319,98199,Magnolia Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+450,98106,Delridge Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+449,98103,Wallingford Playfield,33,4 a.m. - 11:30 p.m.,Paths
+452,98136,Fairmount Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+352,98125,Meadowbrook Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+436,98118,Benefit Playground,28,6 a.m. - 10 p.m.,Skatepark
+340,98105,Laurelhurst Playfield,45,6 a.m. - 10 p.m.,Baseball/Softball
+423,98118,Rainier Playfield,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+353,98122,Garfield Playfield,10,6 a.m. - 10 p.m.,Community Center
+289,98117,Loyal Heights Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+241,98103,B.F. Day Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+371,98122,Madrona Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+1104,98103,Meridian Playground,21,4 a.m. - 11:30 p.m.,Picnic Sites
+400,98144,Beacon Hill Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+458,98126,E.C. Hughes Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+319,98199,Magnolia Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+3881,98115,Maple Leaf Resevoir Park,27,4 a.m. - 11:30 p.m.,Restrooms
+418,98108,Maple Wood Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+352,98125,Meadowbrook Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+319,98199,Magnolia Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+350,98109,Cascade Playground,25,4 a.m. - 11:30 p.m.,P-Patch Community Garden
+406,98122,Colman Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+340,98105,Laurelhurst Playfield,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+458,98126,E.C. Hughes Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+329,98109,East Queen Anne Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+410,98108,Georgetown Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+400,98144,Beacon Hill Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+330,98119,West Queen Anne Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+340,98105,Laurelhurst Playfield,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+439,98118,Hutchinson Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+402,98118,Brighton Playfield,27,6 a.m. - 10 p.m.,Restrooms
+452,98136,Fairmount Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+242,98107,Gilman Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+376,98112,Montlake Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+350,98109,Cascade Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+450,98106,Delridge Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+4245,98122,Benvenuto Viewpoint,34,4 a.m. - 11:30 p.m.,View
+400,98144,Beacon Hill Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+467,98108,South Park Playground,10,4 a.m. - 11:30 p.m.,Community Center
+449,98103,Wallingford Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+422,98118,Rainier Beach Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+422,98118,Rainier Beach Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+376,98112,Montlake Playfield,22,4 a.m. - 11:30 p.m.,Play Area
+251,98117,Soundview Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+352,98125,Meadowbrook Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+4563,98104,Yesler Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+418,98108,Maple Wood Playfield,33,4 a.m. - 11:30 p.m.,Paths
+289,98117,Loyal Heights Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+248,98107,Ross Playground,4,6 a.m. - 10 p.m.,Basketball (Half)
+404,98108,Cleveland Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+497,98107,Ballard Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+439,98118,Hutchinson Playground,44,4 a.m. - 11:30 p.m.,Soccer
+435,98105,University Playground,27,6 a.m. - 10 p.m.,Restrooms
+402,98118,Brighton Playfield,4,6 a.m. - 10 p.m.,Basketball (Half)
+406,98122,Colman Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+242,98107,Gilman Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+250,98117,Sandel Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+422,98118,Rainier Beach Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+4563,98104,Yesler Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+3913,98122,T.T. Minor Playground,20,4 a.m. - 11:30 p.m.,Pesticide Free
+423,98118,Rainier Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+467,98108,South Park Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+382,98125,Pinehurst Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+303,98199,Bayview Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+456,98116,Hiawatha Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+446,98116,Alki Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+288,98133,Bitter Lake Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+496,98105,Burke-Gilman Playground Park,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+329,98109,East Queen Anne Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+435,98105,University Playground,30,6 a.m. - 10 p.m.,Tennis Backboard (Outdoor)
+380,98102,Rogers Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+1104,98103,Meridian Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+458,98126,E.C. Hughes Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+1104,98103,Meridian Playground,22,4 a.m. - 11:30 p.m.,Play Area
+318,98199,Ella Bailey Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+288,98133,Bitter Lake Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+435,98105,University Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+422,98118,Rainier Beach Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+449,98103,Wallingford Playfield,48,4 a.m. - 11:30 p.m.,T-Ball
+3881,98115,Maple Leaf Resevoir Park,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+376,98112,Montlake Playfield,33,4 a.m. - 11:30 p.m.,Paths
+449,98103,Wallingford Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+456,98116,Hiawatha Playfield,30,4 a.m. - 11:30 p.m.,Tennis Backboard (Outdoor)
+329,98109,East Queen Anne Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+482,98115,Bryant Neighborhood Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+242,98107,Gilman Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+404,98108,Cleveland Playfield,43,4 a.m. - 11:30 p.m.,Football
+436,98118,Benefit Playground,4,6 a.m. - 10 p.m.,Basketball (Half)
+402,98118,Brighton Playfield,44,6 a.m. - 10 p.m.,Soccer
+371,98122,Madrona Playground,31,6 a.m. - 10 p.m.,Tennis Lights
+3920,98116,Emma Schmitz Memorial Overlook,36,6 a.m. - 11 p.m.,Waterfront
+450,98106,Delridge Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+467,98108,South Park Playground,22,4 a.m. - 11:30 p.m.,Play Area
+410,98108,Georgetown Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+457,98106,Highland Park Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+373,98112,Miller Playfield,16,6 a.m. - 10 p.m.,Decorative Fountain
+319,98199,Magnolia Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+376,98112,Montlake Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+446,98116,Alki Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+250,98117,Sandel Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+376,98112,Montlake Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+303,98199,Bayview Playground,44,4 a.m. - 11:30 p.m.,Soccer
+376,98112,Montlake Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+423,98118,Rainier Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+423,98118,Rainier Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+353,98122,Garfield Playfield,27,6 a.m. - 10 p.m.,Restrooms
+400,98144,Beacon Hill Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+303,98199,Bayview Playground,34,4 a.m. - 11:30 p.m.,View
+414,98118,Lakewood Playfield,20,4 a.m. - 11:30 p.m.,Pesticide Free
+353,98122,Garfield Playfield,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+251,98117,Soundview Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+449,98103,Wallingford Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+410,98108,Georgetown Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+446,98116,Alki Playground,31,4 a.m. - 11:30 p.m.,Tennis Lights
+287,98115,Froula Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+4465,98126,Rotary Viewpoint,34,4 a.m. - 11:30 p.m.,View
+410,98108,Georgetown Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+410,98108,Georgetown Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3941,98126,Walt Hundley Playfield,49,4 a.m. - 11:30 p.m.,Flag Football
+376,98112,Montlake Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+403,98118,Othello Playground,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+242,98107,Gilman Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+350,98109,Cascade Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+402,98118,Brighton Playfield,45,6 a.m. - 10 p.m.,Baseball/Softball
+242,98107,Gilman Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+456,98116,Hiawatha Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+378,98122,Peppi's Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+241,98103,B.F. Day Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+400,98144,Beacon Hill Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+418,98108,Maple Wood Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+373,98112,Miller Playfield,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+418,98108,Maple Wood Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+418,98108,Maple Wood Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+353,98122,Garfield Playfield,45,6 a.m. - 10 p.m.,Baseball/Softball
+3887,98119,Interbay Athletic Complex,44,4 a.m. - 11:30 p.m.,Soccer
+3920,98116,Emma Schmitz Memorial Overlook,9,6 a.m. - 11 p.m.,Weddings and Ceremonies
+423,98118,Rainier Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+353,98122,Garfield Playfield,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+467,98108,South Park Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+340,98105,Laurelhurst Playfield,30,6 a.m. - 10 p.m.,Tennis Backboard (Outdoor)
+438,98125,Victory Heights Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+403,98118,Othello Playground,3,6 a.m. - 10 p.m.,Basketball (Full)
+422,98118,Rainier Beach Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+431,98108,Van Asselt Playground,27,6 a.m. - 10 p.m.,Restrooms
+452,98136,Fairmount Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+422,98118,Rainier Beach Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+251,98117,Soundview Playfield,61,4 a.m. - 11:30 p.m.,Rugby
+450,98106,Delridge Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+350,98109,Cascade Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+497,98107,Ballard Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+457,98106,Highland Park Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+410,98108,Georgetown Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+242,98107,Gilman Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+482,98115,Bryant Neighborhood Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+329,98109,East Queen Anne Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+431,98108,Van Asselt Playground,35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+452,98136,Fairmount Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+382,98125,Pinehurst Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+250,98117,Sandel Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+456,98116,Hiawatha Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+456,98116,Hiawatha Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+3887,98119,Interbay Athletic Complex,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+472,98126,West Seattle Stadium,43,4 a.m. - 11:30 p.m.,Football
+251,98117,Soundview Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+435,98105,University Playground,20,6 a.m. - 10 p.m.,Pesticide Free
+382,98125,Pinehurst Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+431,98108,Van Asselt Playground,10,6 a.m. - 10 p.m.,Community Center
+446,98116,Alki Playground,20,4 a.m. - 11:30 p.m.,Pesticide Free
+450,98106,Delridge Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4427,98144,Mt. Baker Ridge Viewpoint,34,4 a.m. - 11:30 p.m.,View
+400,98144,Beacon Hill Playground,44,4 a.m. - 11:30 p.m.,Soccer
+289,98117,Loyal Heights Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+422,98118,Rainier Beach Playfield,23,4 a.m. - 11:30 p.m.,Pool (Indoor)
+450,98106,Delridge Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+4006,98102,Bagley Viewpoint,34,4 a.m. - 11:30 p.m.,View
+353,98122,Garfield Playfield,40,6 a.m. - 10 p.m.,Restrooms (ADA Compliant)
+438,98125,Victory Heights Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+319,98199,Magnolia Playfield,48,4 a.m. - 11:30 p.m.,T-Ball
+376,98112,Montlake Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+3913,98122,T.T. Minor Playground,33,4 a.m. - 11:30 p.m.,Paths
+373,98112,Miller Playfield,35,6 a.m. - 10 p.m.,Wading Pool or Water Feature
+380,98102,Rogers Playground,44,4 a.m. - 11:30 p.m.,Soccer
+402,98118,Brighton Playfield,3,6 a.m. - 10 p.m.,Basketball (Full)
+446,98116,Alki Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+414,98118,Lakewood Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+376,98112,Montlake Playfield,36,4 a.m. - 11:30 p.m.,Waterfront
+251,98117,Soundview Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+435,98105,University Playground,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+403,98118,Othello Playground,27,6 a.m. - 10 p.m.,Restrooms
+3941,98126,Walt Hundley Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+376,98112,Montlake Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+414,98118,Lakewood Playfield,22,4 a.m. - 11:30 p.m.,Play Area
+439,98118,Hutchinson Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+241,98103,B.F. Day Playground,44,4 a.m. - 11:30 p.m.,Soccer
+439,98118,Hutchinson Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+403,98118,Othello Playground,33,6 a.m. - 10 p.m.,Paths
+248,98107,Ross Playground,45,6 a.m. - 10 p.m.,Baseball/Softball
+319,98199,Magnolia Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+288,98133,Bitter Lake Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+3913,98122,T.T. Minor Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3887,98119,Interbay Athletic Complex,27,4 a.m. - 11:30 p.m.,Restrooms
+251,98117,Soundview Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+403,98118,Othello Playground,4,6 a.m. - 10 p.m.,Basketball (Half)
+288,98133,Bitter Lake Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+436,98118,Benefit Playground,20,6 a.m. - 10 p.m.,Pesticide Free
+303,98199,Bayview Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+439,98118,Hutchinson Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+422,98118,Rainier Beach Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+329,98109,East Queen Anne Playground,44,4 a.m. - 11:30 p.m.,Soccer
+496,98105,Burke-Gilman Playground Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+438,98125,Victory Heights Playground,22,4 a.m. - 11:30 p.m.,Play Area
+454,98116,Hamilton Viewpoint Park,34,4 a.m. - 11:30 p.m.,View
+400,98144,Beacon Hill Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+288,98133,Bitter Lake Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+378,98122,Peppi's Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+382,98125,Pinehurst Playground,44,4 a.m. - 11:30 p.m.,Soccer
+456,98116,Hiawatha Playfield,46,4 a.m. - 11:30 p.m.,Track
+3703,98116,Bar-S Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+329,98109,East Queen Anne Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+288,98133,Bitter Lake Playfield,48,4 a.m. - 11:30 p.m.,T-Ball
+436,98118,Benefit Playground,3,6 a.m. - 10 p.m.,Basketball (Full)
+371,98122,Madrona Playground,4,6 a.m. - 10 p.m.,Basketball (Half)
+373,98112,Miller Playfield,44,6 a.m. - 10 p.m.,Soccer
+3941,98126,Walt Hundley Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+329,98109,East Queen Anne Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+439,98118,Hutchinson Playground,61,4 a.m. - 11:30 p.m.,Rugby
+456,98116,Hiawatha Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+402,98118,Brighton Playfield,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+436,98118,Benefit Playground,21,6 a.m. - 10 p.m.,Picnic Sites
+352,98125,Meadowbrook Playfield,23,4 a.m. - 11:30 p.m.,Pool (Indoor)
+457,98106,Highland Park Playground,48,4 a.m. - 11:30 p.m.,T-Ball
+400,98144,Beacon Hill Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+450,98106,Delridge Playfield,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+3881,98115,Maple Leaf Resevoir Park,44,4 a.m. - 11:30 p.m.,Soccer
+376,98112,Montlake Playfield,46,4 a.m. - 11:30 p.m.,Track
+431,98108,Van Asselt Playground,45,6 a.m. - 10 p.m.,Baseball/Softball
+373,98112,Miller Playfield,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+353,98122,Garfield Playfield,43,6 a.m. - 10 p.m.,Football
+431,98108,Van Asselt Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+373,98112,Miller Playfield,45,6 a.m. - 10 p.m.,Baseball/Softball
+450,98106,Delridge Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+3941,98126,Walt Hundley Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+400,98144,Beacon Hill Playground,30,4 a.m. - 11:30 p.m.,Tennis Backboard (Outdoor)
+303,98199,Bayview Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+350,98109,Cascade Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3941,98126,Walt Hundley Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+439,98118,Hutchinson Playground,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+3881,98115,Maple Leaf Resevoir Park,73,4 a.m. - 11:30 p.m.,Zipline
+378,98122,Peppi's Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+482,98115,Bryant Neighborhood Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+497,98107,Ballard Playground,44,4 a.m. - 11:30 p.m.,Soccer
+458,98126,E.C. Hughes Playground,44,4 a.m. - 11:30 p.m.,Soccer
+3941,98126,Walt Hundley Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+436,98118,Benefit Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+418,98108,Maple Wood Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+319,98199,Magnolia Playfield,24,4 a.m. - 11:30 p.m.,Pool (Outdoor)
+319,98199,Magnolia Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+251,98117,Soundview Playfield,43,4 a.m. - 11:30 p.m.,Football
+352,98125,Meadowbrook Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+303,98199,Bayview Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+431,98108,Van Asselt Playground,44,6 a.m. - 10 p.m.,Soccer
+456,98116,Hiawatha Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+423,98118,Rainier Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+248,98107,Ross Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+371,98122,Madrona Playground,3,6 a.m. - 10 p.m.,Basketball (Full)
+289,98117,Loyal Heights Playfield,43,4 a.m. - 11:30 p.m.,Football
+435,98105,University Playground,74,6 a.m. - 10 p.m.,Adult Fitness Equipment
+436,98118,Benefit Playground,33,6 a.m. - 10 p.m.,Paths
+353,98122,Garfield Playfield,31,6 a.m. - 10 p.m.,Tennis Lights
+497,98107,Ballard Playground,23,4 a.m. - 11:30 p.m.,Pool (Indoor)
+457,98106,Highland Park Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+3881,98115,Maple Leaf Resevoir Park,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+1104,98103,Meridian Playground,20,4 a.m. - 11:30 p.m.,Pesticide Free
+288,98133,Bitter Lake Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+418,98108,Maple Wood Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+340,98105,Laurelhurst Playfield,44,6 a.m. - 10 p.m.,Soccer
+287,98115,Froula Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+241,98103,B.F. Day Playground,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+4465,98126,Rotary Viewpoint,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+352,98125,Meadowbrook Playfield,11,4 a.m. - 11:30 p.m.,Creek
+248,98107,Ross Playground,27,6 a.m. - 10 p.m.,Restrooms
+456,98116,Hiawatha Playfield,33,4 a.m. - 11:30 p.m.,Paths
+3887,98119,Interbay Athletic Complex,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+435,98105,University Playground,44,6 a.m. - 10 p.m.,Soccer
+373,98112,Miller Playfield,10,6 a.m. - 10 p.m.,Community Center
+353,98122,Garfield Playfield,44,6 a.m. - 10 p.m.,Soccer
+457,98106,Highland Park Playground,44,4 a.m. - 11:30 p.m.,Soccer
+371,98122,Madrona Playground,26,6 a.m. - 10 p.m.,Rental Facility
+431,98108,Van Asselt Playground,3,6 a.m. - 10 p.m.,Basketball (Full)
+3881,98115,Maple Leaf Resevoir Park,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+450,98106,Delridge Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+380,98102,Rogers Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+373,98112,Miller Playfield,31,6 a.m. - 10 p.m.,Tennis Lights
+371,98122,Madrona Playground,29,6 a.m. - 10 p.m.,Tennis Court (Outdoor)
+288,98133,Bitter Lake Playfield,36,4 a.m. - 11:30 p.m.,Waterfront
+457,98106,Highland Park Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+288,98133,Bitter Lake Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+496,98105,Burke-Gilman Playground Park,33,4 a.m. - 11:30 p.m.,Paths
+496,98105,Burke-Gilman Playground Park,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4429,98199,Kiwanis Memorial Preserve Park,34,4 a.m. - 11:30 p.m.,View
+4429,98199,Kiwanis Memorial Preserve Park,37,4 a.m. - 11:30 p.m.,Woods
+446,98116,Alki Playground,10,4 a.m. - 11:30 p.m.,Community Center
+241,98103,B.F. Day Playground,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+3881,98115,Maple Leaf Resevoir Park,22,4 a.m. - 11:30 p.m.,Play Area
+330,98119,West Queen Anne Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+422,98118,Rainier Beach Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+456,98116,Hiawatha Playfield,18,4 a.m. - 11:30 p.m.,Historic Landmark
+242,98107,Gilman Playground,44,4 a.m. - 11:30 p.m.,Soccer
+436,98118,Benefit Playground,34,6 a.m. - 10 p.m.,View
+450,98106,Delridge Playfield,28,4 a.m. - 11:30 p.m.,Skatepark
+423,98118,Rainier Playfield,43,4 a.m. - 11:30 p.m.,Football
+251,98117,Soundview Playfield,34,4 a.m. - 11:30 p.m.,View
+371,98122,Madrona Playground,27,6 a.m. - 10 p.m.,Restrooms
+330,98119,West Queen Anne Playfield,23,4 a.m. - 11:30 p.m.,Pool (Indoor)
+410,98108,Georgetown Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+404,98108,Cleveland Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+456,98116,Hiawatha Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+454,98116,Hamilton Viewpoint Park,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+414,98118,Lakewood Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+458,98126,E.C. Hughes Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+376,98112,Montlake Playfield,34,4 a.m. - 11:30 p.m.,View
+3984,98119,Queen Anne Bowl Playfield,46,4 a.m. - 11:30 p.m.,Track
+352,98125,Meadowbrook Playfield,33,4 a.m. - 11:30 p.m.,Paths
+250,98117,Sandel Playground,3,4 a.m. - 11:30 p.m.,Basketball (Full)
+3920,98116,Emma Schmitz Memorial Overlook,33,6 a.m. - 11 p.m.,Paths
+446,98116,Alki Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+248,98107,Ross Playground,26,6 a.m. - 10 p.m.,Rental Facility
+289,98117,Loyal Heights Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+378,98122,Peppi's Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+330,98119,West Queen Anne Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+340,98105,Laurelhurst Playfield,10,6 a.m. - 10 p.m.,Community Center
+457,98106,Highland Park Playground,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+452,98136,Fairmount Playfield,20,4 a.m. - 11:30 p.m.,Pesticide Free
+373,98112,Miller Playfield,27,6 a.m. - 10 p.m.,Restrooms
+352,98125,Meadowbrook Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+4201,98106,Puget Ridge Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+3887,98119,Interbay Athletic Complex,48,4 a.m. - 11:30 p.m.,T-Ball
+3941,98126,Walt Hundley Playfield,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+497,98107,Ballard Playground,10,4 a.m. - 11:30 p.m.,Community Center
+4451,98199,Ursula Judkins Viewpoint,34,4 a.m. - 11:30 p.m.,View
+1104,98103,Meridian Playground,9,4 a.m. - 11:30 p.m.,Weddings and Ceremonies
+380,98102,Rogers Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+458,98126,E.C. Hughes Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+456,98116,Hiawatha Playfield,31,4 a.m. - 11:30 p.m.,Tennis Lights
+380,98102,Rogers Playground,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+403,98118,Othello Playground,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+467,98108,South Park Playground,44,4 a.m. - 11:30 p.m.,Soccer
+288,98133,Bitter Lake Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+403,98118,Othello Playground,21,6 a.m. - 10 p.m.,Picnic Sites
+250,98117,Sandel Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+439,98118,Hutchinson Playground,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+449,98103,Wallingford Playfield,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+435,98105,University Playground,45,6 a.m. - 10 p.m.,Baseball/Softball
+3984,98119,Queen Anne Bowl Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+382,98125,Pinehurst Playground,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+340,98105,Laurelhurst Playfield,31,6 a.m. - 10 p.m.,Tennis Lights
+376,98112,Montlake Playfield,43,4 a.m. - 11:30 p.m.,Football
+248,98107,Ross Playground,48,6 a.m. - 10 p.m.,T-Ball
+3881,98115,Maple Leaf Resevoir Park,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+446,98116,Alki Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+449,98103,Wallingford Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+449,98103,Wallingford Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+472,98126,West Seattle Stadium,27,4 a.m. - 11:30 p.m.,Restrooms
+251,98117,Soundview Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+352,98125,Meadowbrook Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+467,98108,South Park Playground,29,4 a.m. - 11:30 p.m.,Tennis Court (Outdoor)
+371,98122,Madrona Playground,44,6 a.m. - 10 p.m.,Soccer
+414,98118,Lakewood Playfield,45,4 a.m. - 11:30 p.m.,Baseball/Softball
+406,98122,Colman Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+3984,98119,Queen Anne Bowl Playfield,44,4 a.m. - 11:30 p.m.,Soccer
+3920,98116,Emma Schmitz Memorial Overlook,34,6 a.m. - 11 p.m.,View
+456,98116,Hiawatha Playfield,4,4 a.m. - 11:30 p.m.,Basketball (Half)
+3941,98126,Walt Hundley Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+353,98122,Garfield Playfield,23,6 a.m. - 10 p.m.,Pool (Indoor)
+4241,98144,East Portal Viewpoint,34,6 a.m. - 10 p.m.,View
+402,98118,Brighton Playfield,41,6 a.m. - 10 p.m.,Play Area (ADA Compliant)
+3881,98115,Maple Leaf Resevoir Park,72,4 a.m. - 11:30 p.m.,Pickleball Court
+394,98115,Sacajawea Playground,22,4 a.m. - 11:30 p.m.,Play Area
+330,98119,West Queen Anne Playfield,41,4 a.m. - 11:30 p.m.,Play Area (ADA Compliant)
+4002,98125,Virgil Flaim Park,22,4 a.m. - 11:30 p.m.,Play Area
+456,98116,Hiawatha Playfield,10,4 a.m. - 11:30 p.m.,Community Center
+371,98122,Madrona Playground,45,6 a.m. - 10 p.m.,Baseball/Softball
+289,98117,Loyal Heights Playfield,27,4 a.m. - 11:30 p.m.,Restrooms
+1104,98103,Meridian Playground,27,4 a.m. - 11:30 p.m.,Restrooms
+472,98126,West Seattle Stadium,40,4 a.m. - 11:30 p.m.,Restrooms (ADA Compliant)
+456,98116,Hiawatha Playfield,35,4 a.m. - 11:30 p.m.,Wading Pool or Water Feature
+373,98112,Miller Playfield,3,6 a.m. - 10 p.m.,Basketball (Full)
+454,98116,Hamilton Viewpoint Park,37,4 a.m. - 11:30 p.m.,Woods
+418,98108,Maple Wood Playfield,42,4 a.m. - 11:30 p.m.,Paths (ADA Compliant)
+496,98105,Burke-Gilman Playground Park,27,4 a.m. - 11:30 p.m.,Restrooms
