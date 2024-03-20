@@ -18,6 +18,7 @@ Collaborate in a team of five to seven members. Think about a product/service of
 
 
 ## Milestone 1: Definition
+- [PM1] - PM1 submission
 
 **Assigned**: 01/18. **Due**: 02/01.
 
@@ -36,6 +37,7 @@ Collaborate in a team of five to seven members. Think about a product/service of
 - Each member should be prepared to present the project definition in class on the due date.
 
 ## Milestone 2: Relational Model and Data
+- [PM2] - PM2 submission
 
 **Assigned**: 02/01. **Due**: 02/15.
 
@@ -48,6 +50,7 @@ Collaborate in a team of five to seven members. Think about a product/service of
 - Each member should be prepared to demo the relational model implementation in Workbench in class on the due date.
 
 ## Milestone 3: Business Insights
+- [PM3] - PM3 submission
 
 **Assigned**: 02/08. **Due**: 02/29.
 
@@ -60,6 +63,7 @@ Collaborate in a team of five to seven members. Think about a product/service of
 - Each member should be prepared to demo the SQL statements in class on the due date.
 
 ## Milestone 4: Hello World
+- [PM4] - PM4 submission
 
 **Assigned**: 02/29. **Due**: 03/21.
 
@@ -118,3 +122,8 @@ Collaborate in a team of five to seven members. Think about a product/service of
   - Summarize PM6 in a slide deck. Emphasize the retrospective and lessons learned. For example, no need to spend much time on your UML because we have already seen that in the past.
   - Provide a live demo of your final website. This is your chance to pitch your product!
 
+<!-- auto references -->
+[PM1]:https://github.com/YiwenW312/LifeHubApp/blob/main/Doc/PM1.md
+[PM2]:https://github.com/YiwenW312/LifeHubApp/blob/main/Doc/PM2.md
+[PM3]:https://github.com/YiwenW312/LifeHubApp/blob/main/Doc/PM3.md
+[PM4]:https://github.com/YiwenW312/LifeHubApp/blob/main/Doc/PM4.md
