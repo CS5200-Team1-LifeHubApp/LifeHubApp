@@ -55,5 +55,5 @@ dist/
 nbdist/
 .nb-gradle/
 
-
+# Visual Studio Code specific
 .DS_Store
