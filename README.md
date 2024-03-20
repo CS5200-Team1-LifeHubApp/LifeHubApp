@@ -10,7 +10,7 @@
 **Revision History**
 |Date|Version|Description|Author|
 |:----:|:----:|:----:|:----:|
-|Jan 11, 2024|1.0|Initial release| Yiwen Wang|
+|Mar 19, 2024|1.0|Initial release| Yiwen Wang|
 
 # Introduction
 - This is a project for CS5200: Introduction to Database Management Systems, Spring 2024. 
