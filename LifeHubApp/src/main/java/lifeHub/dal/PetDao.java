@@ -1,107 +1,114 @@
 package lifeHub.dal;
 
-import lifeHub.model.*;
 
-// TODO -- be sure to remove unused imports
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
+import java.sql.*;
+import lifeHub.model.Pet;
 
-
-/**
- * Data access object (DAO) class to interact with the underlying Pet table in your MySQL
- * instance. This is used to store {@link Pet} into your MySQL instance and retrieve 
- * {@link Pet} from MySQL instance.
- */
 public class PetDao {
-	protected ConnectionManager connectionManager;
-	
-	// Single pattern: instantiation is limited to one object.
-	private static PetDao instance = null;
-	protected PetDao() {
-		connectionManager = new ConnectionManager();
-	}
-	public static PetDao getInstance() {
-		if(instance == null) {
-			instance = new PetDao();
-		}
-		return instance;
-	}
+    protected ConnectionManager connectionManager;
 
-	// TODO -- CRUD statements below (create, read, update, delete)
-	
-	/**
-	 * Save the Pet instance by storing it in your MySQL instance.
-	 * This runs a INSERT statement.
-	 */
-	public Pet create(Pet pet) throws SQLException {
-		String insertUsers = 
-				"INSERT INTO Pet(LicenseId,Name,Species,PrimaryBreed,NeighborZipId) VALUES(?,?,?,?,?);";
-		Connection connection = null;
-		PreparedStatement insertStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			insertStmt = connection.prepareStatement(insertUsers);
+    private static PetDao instance = null;
+    protected PetDao() {
+        connectionManager = new ConnectionManager();
+    }
+    public static PetDao getInstance() {
+        if(instance == null) {
+            instance = new PetDao();
+        }
+        return instance;
+    }
 
-			insertStmt.setInt(1, pet.getLicenseId());
-			insertStmt.setString(2, pet.getName());
-			insertStmt.setString(3, pet.getSpecies());
-			insertStmt.setString(4, pet.getPrimaryBreed());
-			insertStmt.setInt(5, pet.getNeighborZipId());
-		
-			insertStmt.executeUpdate();
-			
-			return pet;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(insertStmt != null) {
-				insertStmt.close();
-			}
-		}
-	}
-	
-	
-	
-	
-	// TODO -- READ and UPDATE methods here!!!
-	
-	
-	
-	/**
-	 * Delete the Pet instance.
-	 * This runs a DELETE statement.
-	 */
-	public Pet delete(Pet pet) throws SQLException {
-		String deletePet = 
-				"DELETE FROM Pet WHERE LicenseId=?;";
-		Connection connection = null;
-		PreparedStatement deleteStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			deleteStmt = connection.prepareStatement(deletePet);
-			deleteStmt.setInt(1, pet.getLicenseId());
-			deleteStmt.executeUpdate();
-//			super.delete(pet); // TODO -- this may or many NOT be needed based on instance
+    //CREATE
+    public Pet create(Pet pet) throws SQLException {
+        String insertPet = "INSERT INTO Pet(LicenseId, Name, Species, PrimaryBreed, NeighborZipId) VALUES(?,?,?,?,?);";
+        Connection connection = null;
+        PreparedStatement insertStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            insertStmt = connection.prepareStatement(insertPet);
+            // Set parameters
+            insertStmt.setString(1, pet.getLicenseId());
+            insertStmt.setString(2, pet.getName());
+            insertStmt.setString(3, pet.getSpecies());
+            insertStmt.setString(4, pet.getPrimaryBreed());
+            insertStmt.setInt(5, pet.getNeighborZipId());
+            insertStmt.executeUpdate();
+            
+            return pet;
+        } finally {
+            if(insertStmt != null) insertStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
 
-			return null;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(deleteStmt != null) {
-				deleteStmt.close();
-			}
-		}
-	}
+    public Pet getPetByLicenseId(String licenseId) throws SQLException {
+        String selectPet = "SELECT LicenseId, Name, Species, PrimaryBreed, NeighborZipId FROM Pet WHERE LicenseId=?;";
+        Connection connection = null;
+        PreparedStatement selectStmt = null;
+        ResultSet results = null;
+        try {
+            connection = connectionManager.getConnection();
+            selectStmt = connection.prepareStatement(selectPet);
+            selectStmt.setString(1, licenseId);
+            results = selectStmt.executeQuery();
+            if(results.next()) {
+                String name = results.getString("Name");
+                String species = results.getString("Species");
+                String primaryBreed = results.getString("PrimaryBreed");
+                int neighborZipId = results.getInt("NeighborZipId");
+
+                Pet pet = new Pet(licenseId, name, species, primaryBreed, neighborZipId);
+                return pet;
+            }
+        } finally {
+            if(results != null) results.close();
+            if(selectStmt != null) selectStmt.close();
+            if(connection != null) connection.close();
+        }
+        return null;
+    }
+
+    //UPDATE
+    public Pet update(Pet pet) throws SQLException {
+        String updatePet = "UPDATE Pet SET Name=?, Species=?, PrimaryBreed=?, NeighborZipId=? WHERE LicenseId=?;";
+        Connection connection = null;
+        PreparedStatement updateStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            updateStmt = connection.prepareStatement(updatePet);
+            // Set parameters for the update based on the Pet object's current state
+            updateStmt.setString(1, pet.getName());
+            updateStmt.setString(2, pet.getSpecies());
+            updateStmt.setString(3, pet.getPrimaryBreed());
+            updateStmt.setInt(4, pet.getNeighborZipId());
+            updateStmt.setString(5, pet.getLicenseId());
+            
+            updateStmt.executeUpdate();
+            
+            // Return the updated pet
+            return pet;
+        } finally {
+            if(updateStmt != null) updateStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
+
+    //DELETE
+    public Pet delete(Pet pet) throws SQLException {
+        String deletePet = "DELETE FROM Pet WHERE LicenseId=?;";
+        Connection connection = null;
+        PreparedStatement deleteStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            deleteStmt = connection.prepareStatement(deletePet);
+            deleteStmt.setString(1, pet.getLicenseId());
+            deleteStmt.executeUpdate();
+
+            // Return null on successful delete
+            return null;
+        } finally {
+            if(deleteStmt != null) deleteStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
 }
