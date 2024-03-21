@@ -2,6 +2,9 @@ package lifeHub.dal;
 
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
+
 import lifeHub.model.Pet;
 
 public class PetDao {
@@ -40,7 +43,8 @@ public class PetDao {
             if(connection != null) connection.close();
         }
     }
-
+    
+    //READ
     public Pet getPetByLicenseId(String licenseId) throws SQLException {
         String selectPet = "SELECT LicenseId, Name, Species, PrimaryBreed, NeighborZipId FROM Pet WHERE LicenseId=?;";
         Connection connection = null;
@@ -66,6 +70,49 @@ public class PetDao {
             if(connection != null) connection.close();
         }
         return null;
+    }
+    
+    /**
+     * Retrieves pets belonging to a specific zipcode.
+     *
+     * @param zipcode The zipcode to retrieve pets for.
+     * @return A list of pets belonging to the specified zipcode.
+     * @throws SQLException if there's an error accessing the database.
+     */
+    public List<Pet> getPetsByZipcode(int zipcode) throws SQLException {
+        List<Pet> pets = new ArrayList<>();
+        String selectPetsByZipcode = "SELECT LicenseId, Name, Species, PrimaryBreed FROM Pet WHERE NeighborZipId = ?";
+        Connection connection = null;
+        PreparedStatement selectStmt = null;
+        ResultSet results = null;
+
+        try {
+            connection = connectionManager.getConnection();
+            selectStmt = connection.prepareStatement(selectPetsByZipcode);
+            selectStmt.setInt(1, zipcode);
+            results = selectStmt.executeQuery();
+
+            while (results.next()) {
+                String licenseId = results.getString("LicenseId");
+                String name = results.getString("Name");
+                String species = results.getString("Species");
+                String primaryBreed = results.getString("PrimaryBreed");
+
+                Pet pet = new Pet(licenseId, name, species, primaryBreed, zipcode);
+                pets.add(pet);
+            }
+        } finally {
+            if (results != null) {
+                results.close();
+            }
+            if (selectStmt != null) {
+                selectStmt.close();
+            }
+            if (connection != null) {
+                connection.close();
+            }
+        }
+        return pets;
     }
 
     //UPDATE

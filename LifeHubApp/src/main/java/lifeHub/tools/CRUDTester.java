@@ -6,6 +6,9 @@ import lifeHub.model.*;
 import java.sql.SQLException;
 import java.sql.Timestamp;
 
+/**
+ * This is a CRUDTester to test all the CRUD operations (CREATE, UPDATE, READ, DELETE)
+ */
 public class CRUDTester {
 
 	public static void main(String[] args) throws SQLException {
