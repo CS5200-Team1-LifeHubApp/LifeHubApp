@@ -1,25 +1,17 @@
 package lifeHub.model;
 
-//CREATE TABLE CrimeActivity (
-//	    CaseId VARCHAR(255) PRIMARY KEY,
-//	    City VARCHAR(255),
-//	    State VARCHAR(255),
-//	    NeighborZipId INT,
-//	    CrimeName TEXT,
-//	    FOREIGN KEY (NeighborZipId) REFERENCES NeighborhoodbyZip(NeighborZipId)
-//	);
+import java.util.List;
+import java.util.ArrayList;
 
-// Class Instance
+
 public class CrimeActivity {
-    private int caseId;
-    private String city;
-    private String state;
-    private int neighborZipId;
-    private String crimeName;
-	
-    // Constructor
-    public CrimeActivity(int caseId, String city, String state, int neighborZipId, String crimeName) {
-		super();
+	private int caseId;
+	private String city;
+	private String state;
+	private int neighborZipId;
+	private String crimeName;
+
+	public CrimeActivity(int caseId, String city, String state, int neighborZipId, String crimeName) {
 		this.caseId = caseId;
 		this.city = city;
 		this.state = state;
@@ -27,7 +19,16 @@ public class CrimeActivity {
 		this.crimeName = crimeName;
 	}
 
-    // Getters and Setters
+	public static List<CrimeActivity> getCrimeActivityById(int caseId) {
+		List<CrimeActivity> crimeActivities = new ArrayList();
+		return crimeActivities;
+	}
+
+	public static boolean delete(CrimeActivity crimeActivity) {
+		// Implement method body
+		return false;
+	}
+
 	public int getCaseId() {
 		return caseId;
 	}
@@ -41,7 +42,7 @@ public class CrimeActivity {
 	}
 
 	public void setCity(String city) {
-		city = city;
+		this.city = city;
 	}
 
 	public String getState() {
@@ -49,7 +50,7 @@ public class CrimeActivity {
 	}
 
 	public void setState(String state) {
-		state = state;
+		this.state = state;
 	}
 
 	public int getNeighborZipId() {
@@ -57,7 +58,7 @@ public class CrimeActivity {
 	}
 
 	public void setNeighborZipId(int neighborZipId) {
-		neighborZipId = neighborZipId;
+		this.neighborZipId = neighborZipId;
 	}
 
 	public String getCrimeName() {
@@ -65,13 +66,21 @@ public class CrimeActivity {
 	}
 
 	public void setCrimeName(String crimeName) {
-		crimeName = crimeName;
+		this.crimeName = crimeName;
 	}
 
-	
-    // toString@Override
+	@Override
 	public String toString() {
-		return "CrimeActivity [caseId=" + caseId + ", City=" + city + ", State=" + state + ", NeighborZipId="
-				+ neighborZipId + ", CrimeName=" + crimeName + "]";
+		return "CrimeActivity [caseId=" + caseId + ", city=" + city + ", state=" + state
+				+ ", neighborZipId=" + neighborZipId + ", crimeName=" + crimeName + "]";
+	}
+
+	public void updateCrimeName(String newCrimeName) {
+		this.crimeName = newCrimeName;
+	}
+
+	public boolean delete() {
+		// Implement method body
+		return false;
 	}
 }

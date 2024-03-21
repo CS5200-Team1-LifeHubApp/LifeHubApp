@@ -1,8 +1,9 @@
 package lifeHub.dal;
 
+import lifeHub.dal.ConnectionManager;
+import lifeHub.model.CrimeActivity;
 import lifeHub.model.*;
 
-// TODO -- be sure to remove unused imports
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,98 +11,81 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-
-/**
- * Data access object (DAO) class to interact with the underlying CrimeActivity table in your MySQL
- * instance. This is used to store {@link CrimeActivity} into your MySQL instance and retrieve 
- * {@link CrimeActivity} from MySQL instance.
- */
-public class CrimeActivityDao {
+public class CrimeActivityDao{
 	protected ConnectionManager connectionManager;
-	
-	// Single pattern: instantiation is limited to one object.
-	private static CrimeActivityDao instance = null;
+
 	protected CrimeActivityDao() {
 		connectionManager = new ConnectionManager();
 	}
+	private static CrimeActivityDao instance = null;
+
 	public static CrimeActivityDao getInstance() {
-		if(instance == null) {
+		if (instance == null) {
 			instance = new CrimeActivityDao();
 		}
 		return instance;
 	}
-
-	// TODO -- CRUD statements below (create, read, update, delete)
-	
-	/**
-	 * Save the CrimeActivity instance by storing it in your MySQL instance.
-	 * This runs a INSERT statement.
-	 */
 	public CrimeActivity create(CrimeActivity crimeActivity) throws SQLException {
-		String insertCrimeActivity = 
-				"INSERT INTO CrimeActivity(CaseId,City,State,NeighborZipId,CrimeName) VALUES(?,?,?,?,?);";
-		Connection connection = null;
-		PreparedStatement insertStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			insertStmt = connection.prepareStatement(insertCrimeActivity);
+		String insertCrimeActivity =
+				"INSERT INTO CrimeActivity(CaseId, City, State, NeighborZipId, CrimeName) VALUES (?, ?, ?, ?, ?);";
+		try (Connection connection = connectionManager.getConnection();
+			 PreparedStatement insertStmt = connection.prepareStatement(insertCrimeActivity)) {
 
 			insertStmt.setInt(1, crimeActivity.getCaseId());
 			insertStmt.setString(2, crimeActivity.getCity());
 			insertStmt.setString(3, crimeActivity.getState());
 			insertStmt.setInt(4, crimeActivity.getNeighborZipId());
 			insertStmt.setString(5, crimeActivity.getCrimeName());
-		
+
 			insertStmt.executeUpdate();
-			
+
 			return crimeActivity;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(insertStmt != null) {
-				insertStmt.close();
-			}
 		}
 	}
-	
-	
-	
-	
-	// TODO -- READ and UPDATE methods here!!!
-	
-	
-	
-	/**
-	 * Delete the CrimeActivety instance.
-	 * This runs a DELETE statement.
-	 */
-	public CrimeActivity delete(CrimeActivity crimeActivity) throws SQLException {
-		String deleteCrimeActivity = 
-				"DELETE FROM CrimeActivity WHERE CaseId=?;";
-		Connection connection = null;
-		PreparedStatement deleteStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			deleteStmt = connection.prepareStatement(deleteCrimeActivity);
+
+	public List<CrimeActivity> getCrimeActivityById(int caseId) throws SQLException {
+		List<CrimeActivity> crimeActivities = new ArrayList<>();
+		try (Connection connection = connectionManager.getConnection();
+			 PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM CrimeActivity WHERE CaseId = ?")) {
+			preparedStatement.setInt(1, caseId);
+			try (ResultSet resultSet = preparedStatement.executeQuery()) {
+				while (resultSet.next()) {
+					int fetchedCaseId = resultSet.getInt("CaseId");
+					String fetchedCity = resultSet.getString("City");
+					String fetchedState = resultSet.getString("State");
+					int fetchedNeighborZipId = resultSet.getInt("NeighborZipId");
+					String fetchedCrimeName = resultSet.getString("CrimeName");
+
+					CrimeActivity crimeActivity = new CrimeActivity(fetchedCaseId, fetchedCity, fetchedState,
+							fetchedNeighborZipId, fetchedCrimeName);
+					crimeActivities.add(crimeActivity);
+				}
+			}
+		}
+		return crimeActivities;
+	}
+
+	public CrimeActivity updateCrimeName(CrimeActivity crimeActivity, String newCrimeName) throws SQLException {
+		String updateCrimeName = "UPDATE CrimeActivity SET CrimeName = ? WHERE CaseId = ?;";
+		try (Connection connection = connectionManager.getConnection();
+			 PreparedStatement updateStmt = connection.prepareStatement(updateCrimeName)) {
+
+			updateStmt.setString(1, newCrimeName);
+			updateStmt.setInt(2, crimeActivity.getCaseId());
+			updateStmt.executeUpdate();
+
+			crimeActivity.setCrimeName(newCrimeName);
+			return crimeActivity;
+		}
+	}
+
+	public void delete(CrimeActivity crimeActivity) throws SQLException {
+		String deleteCrimeActivity = "DELETE FROM CrimeActivity WHERE CaseId = ?;";
+		try (Connection connection = connectionManager.getConnection();
+			 PreparedStatement deleteStmt = connection.prepareStatement(deleteCrimeActivity)) {
+
 			deleteStmt.setInt(1, crimeActivity.getCaseId());
 			deleteStmt.executeUpdate();
-//			super.delete(crimeActivity); // TODO -- this may or many NOT be needed based on instance
-
-			return null;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(deleteStmt != null) {
-				deleteStmt.close();
-			}
 		}
 	}
 }

@@ -1,38 +1,38 @@
 package lifeHub.model;
 
 //CREATE TABLE Restaurant (
-//	    RestaurantId INT AUTO_INCREMENT PRIMARY KEY,
-//	    Name VARCHAR(255),
-//	    Description TEXT,
-//	    Hours VARCHAR(255),
-//	    Website VARCHAR(255),
-//	    CuisineType ENUM('AFRICAN', 'AMERICAN', 'ASIAN', 'EUROPEAN', 'HISPANIC'),
-//		NeighborZipId INT,
-//	    FOREIGN KEY (NeighborZipId) REFERENCES NeighborhoodbyZip(NeighborZipId)
-//	);
+//      RestaurantId INT AUTO_INCREMENT PRIMARY KEY,
+//      Name VARCHAR(255),
+//      Description TEXT,
+//      Hours VARCHAR(255),
+//      Website VARCHAR(255),
+//      CuisineType ENUM('AFRICAN', 'AMERICAN', 'ASIAN', 'EUROPEAN', 'HISPANIC'),
+//      NeighborZipId INT,
+//      FOREIGN KEY (NeighborZipId) REFERENCES NeighborhoodbyZip(NeighborZipId)
+//  );
 
 // Class Instance
 public class Restaurant {
-    private int restaurantId;
-    private String name;
-    private String description;
-    private String hours;
-    private String webSite;
-    private CuisineType cuisineType;
-    private int neighborZipId;
+	private int restaurantId;
+	private String name;
+	private String description;
+	private String hours;
+	private String webSite;
+	private CuisineType cuisineType;
+	private int neighborZipId;
 
-    //ENUM
-    public enum CuisineType {
-        AFRICAN,
-        AMERICAN,
-        ASIAN,
-        EUROPEAN,
-        HISPANIC
-    }
+	//ENUM
+	public enum CuisineType {
+		AFRICAN,
+		AMERICAN,
+		ASIAN,
+		EUROPEAN,
+		HISPANIC
+	}
 
-    // Constructor
+	// Constructor
 	public Restaurant(int restaurantId, String name, String description, String hours, String webSite,
-			CuisineType cuisineType, int neighborZipId) {
+					  CuisineType cuisineType, int neighborZipId) {
 		super();
 		this.restaurantId = restaurantId;
 		this.name = name;
@@ -43,7 +43,11 @@ public class Restaurant {
 		this.neighborZipId = neighborZipId;
 	}
 
-    // Getters and Setters
+	public Restaurant(int restaurantId) {
+		this.restaurantId = restaurantId;
+	}
+
+	// Getters and Setters
 	public int getRestaurantId() {
 		return restaurantId;
 	}
@@ -101,11 +105,11 @@ public class Restaurant {
 	}
 
 
-    // toString
+	// toString
 	@Override
 	public String toString() {
 		return "Restaurant [restaurantId=" + restaurantId + ", name=" + name + ", description=" + description
 				+ ", hours=" + hours + ", webSite=" + webSite + ", cuisineType=" + cuisineType + ", neighborZipId="
 				+ neighborZipId + "]";
-	}   
+	}
 }

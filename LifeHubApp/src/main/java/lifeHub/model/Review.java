@@ -15,15 +15,15 @@ import java.sql.Timestamp;
 
 // Class Instance
 public class Review {
-    private int reviewId;
-    private Timestamp created;
-    private String content;
-    private double rating;
-    private int userId;
-    private int neighborZipId;
-	
-    // Constructor
-    public Review(int reviewId, Timestamp created, String content, double d, int userId, int neighborZipId) {
+	private int reviewId;
+	private Timestamp created;
+	private String content;
+	private double rating;
+	private int userId;
+	private int neighborZipId;
+
+	// Constructor
+	public Review(int reviewId, Timestamp created, String content, double d, int userId, int neighborZipId) {
 		super();
 		this.reviewId = reviewId;
 		this.created = created;
@@ -33,7 +33,7 @@ public class Review {
 		this.neighborZipId = neighborZipId;
 	}
 
-    // Getters and Setters
+	// Getters and Setters
 	public int getReviewId() {
 		return reviewId;
 	}
@@ -58,8 +58,8 @@ public class Review {
 		this.content = content;
 	}
 
-	public double getRating() {
-		return rating;
+	public float getRating() {
+		return (float) rating;
 	}
 
 	public void setRating(float rating) {
@@ -82,7 +82,7 @@ public class Review {
 		this.neighborZipId = neighborZipId;
 	}
 
-    // toString
+	// toString
 	@Override
 	public String toString() {
 		return "Review [reviewId=" + reviewId + ", created=" + created + ", content=" + content + ", rating=" + rating

@@ -39,7 +39,7 @@ public class PetDao {
 	 */
 	public Pet create(Pet pet) throws SQLException {
 		String insertUsers = 
-				"INSERT INTO Pet(LicenseId,Name,Species,PrimayBreed,NeighborZipId) VALUES(?,?,?,?,?);";
+				"INSERT INTO Pet(LicenseId,Name,Species,PrimaryBreed,NeighborZipId) VALUES(?,?,?,?,?);";
 		Connection connection = null;
 		PreparedStatement insertStmt = null;
 		try {

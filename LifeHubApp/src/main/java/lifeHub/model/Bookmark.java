@@ -3,25 +3,25 @@ package lifeHub.model;
 import java.sql.Timestamp;
 
 //CREATE TABLE Bookmark (
-//	    BookmarkId INT AUTO_INCREMENT PRIMARY KEY,
-//	    Created TIMESTAMP,
-//	    UserId INT,
-//	    Description TEXT,
-//	    NeighborZipId INT,
-//	    FOREIGN KEY (UserId) REFERENCES Users(UserId),
-//	    FOREIGN KEY (NeighborZipId) REFERENCES NeighborhoodbyZip(NeighborZipId)
-//	);
+//      BookmarkId INT AUTO_INCREMENT PRIMARY KEY,
+//      Created TIMESTAMP,
+//      UserId INT,
+//      Description TEXT,
+//      NeighborZipId INT,
+//      FOREIGN KEY (UserId) REFERENCES Users(UserId),
+//      FOREIGN KEY (NeighborZipId) REFERENCES NeighborhoodbyZip(NeighborZipId)
+//  );
 
 // Class Instance
 public class Bookmark {
-    private int bookmarkId;
-    private Timestamp created;
-    private int userId;
-    private String description;
-    private int neighborZipId;
-	
-    // Constructor  
-    public Bookmark(int bookmarkId, Timestamp created, int userId, String description, int neighborZipId) {
+	private int bookmarkId;
+	private Timestamp created;
+	private int userId;
+	private String description;
+	private int neighborZipId;
+
+	// Constructor
+	public Bookmark(int bookmarkId, Timestamp created, int userId, String description, int neighborZipId) {
 		super();
 		this.bookmarkId = bookmarkId;
 		this.created = created;
@@ -30,7 +30,7 @@ public class Bookmark {
 		this.neighborZipId = neighborZipId;
 	}
 
-    // Getters and Setters
+	// Getters and Setters
 	public int getBookmarkId() {
 		return bookmarkId;
 	}
@@ -68,13 +68,18 @@ public class Bookmark {
 	}
 
 	public void setNeighborZipId(int neighborZipId) {
-		neighborZipId = neighborZipId;
+		this.neighborZipId = neighborZipId;
 	}
 
-    // toString
+	public void update(Bookmark bookmark, String newCrimeName) {
+	}
+
+	// toString
 	@Override
 	public String toString() {
 		return "Bookmark [bookmarkId=" + bookmarkId + ", created=" + created + ", userId=" + userId + ", description="
 				+ description + ", NeighborZipId=" + neighborZipId + "]";
 	}
+
+
 }

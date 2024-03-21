@@ -39,7 +39,7 @@ public class RecommendationDao {
 	 */
 	public Recommendation create(Recommendation recommendation) throws SQLException {
 		String insertRecommendation = 
-				"INSERT INTO Recommendation(RecommendationId,UserId,NeighborId) VALUES(?,?,?);";
+				"INSERT INTO Recommendation(RecommendationId,UserId,NeighborZipId) VALUES(?,?,?);";
 		Connection connection = null;
 		PreparedStatement insertStmt = null;
 		try {

@@ -19,7 +19,7 @@ public class Recommendation {
 		super();
 		this.recommendationId = recommendationId;
 		this.userId = userId;
-		neighborZipId = neighborZipId;
+		this.neighborZipId = neighborZipId;
 	}
 
     // Getters and Setters

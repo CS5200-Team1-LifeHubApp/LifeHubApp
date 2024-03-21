@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * main() runner, used for the app demo.
- * 
+ *
  * Instructions:
  * 1. Create a new MySQL schema and then run the CREATE TABLE statements from lecture:
  * http://goo.gl/86a11H.
@@ -56,60 +56,112 @@ public class Inserter {
 
 		// Timestamp
 		Timestamp currentTimestamp = new Timestamp(System.currentTimeMillis());
-		
-		// Review
-		Review review = new Review(1, currentTimestamp,"Content here", 5.0, 1, 1);
-		review = reviewDao.create(review);
-		
-		// Restaurant
-		Restaurant restaurant = new Restaurant(1, "Restaurant1", "Description here", "Hours here", "restaurant1@website.com", CuisineType.ASIAN, 1);
-		restaurant = restaurantDao.create(restaurant);
-		
-		// Recommendation
-		Recommendation recommendation = new Recommendation(1, 1, 1);
-		recommendation = recommendationDao.create(recommendation);
-		
-		// Pet
-		Pet pet = new Pet(1, "Betty Boop", "Cat", "Mix", 1);
-		pet = petDao.create(pet);
-		
-		// Park
-		Park park = new Park(1, 1, "Park1", 1, "noon-midnight", "Feature description here");
-		park = parkDao.create(park);
-		
+
 		// Neighborhood
 		Neighborhood neighborhood = new Neighborhood(1, "Shangri-La");
 		neighborhood = neighborhoodDao.create(neighborhood);
-		
+
+		// Restaurant
+		Restaurant restaurant = new Restaurant(1, "Restaurant1", "Description here", "Hours here", "restaurant1@website.com", CuisineType.ASIAN, 1);
+		restaurant = restaurantDao.create(restaurant);
+
+//		for (int xyz = 0; xyz < 200; xyz++) {
+//			System.out.println("waiting");
+//		}
+		// Recommendation
+		Recommendation recommendation = new Recommendation(1, 1, 1);
+		recommendation = recommendationDao.create(recommendation);
+
+		// Review
+		Review review = new Review(1, currentTimestamp,"Content here", 5.0, 1, 1);
+		review = reviewDao.create(review);
+
+		// Pet
+		Pet pet = new Pet(1, "Betty Boop", "Cat", "Mix", 1);
+		pet = petDao.create(pet);
+
+		// Park
+		Park park = new Park(1, 1, "Park1", 1, "noon-midnight", "Feature description here");
+		park = parkDao.create(park);
+
 		// FarmersMarket
 		FarmersMarket farmersMarket = new FarmersMarket(1, 1, "Name1", "Dates1", "Hours1", "name1.com", MarketType.ALLYEAR);
 		farmersMarket = farmersMarketDao.create(farmersMarket);
-		
+
 		// CrimeActivity
 		CrimeActivity crimeActivity = new CrimeActivity(1, "City1", "State1", 1, "Burglary");
 		crimeActivity = crimeActivityDao.create(crimeActivity);
-		
+
 		// Bookmark
 		Bookmark bookmark = new Bookmark(1, currentTimestamp, 1, "Description1", 1);
 		bookmark = bookmarkDao.create(bookmark);
-		
 
-		// READ.
-		// TODO -- UPDATE DATA TO MATCH NEW CLASS LISTS
-		BlogUsers bu1 = blogUsersDao.getBlogUserFromUserName("bu");
-		List<BlogUsers> buList1 = blogUsersDao.getBlogUsersFromFirstName("bruce");
-		System.out.format("Reading blog user: u:%s f:%s l:%s d:%s s:%s \n",
-			bu1.getUserName(), bu1.getFirstName(), bu1.getLastName(), bu1.getDob(), bu1.getStatusLevel().name());
-		for(BlogUsers bu : buList1) {
-			System.out.format("Looping blog users: u:%s f:%s l:%s d:%s s:%s \n",
-				bu.getUserName(), bu.getFirstName(), bu.getLastName(), bu.getDob(), bu.getStatusLevel().name());
-		}
-		List<BlogPosts> bpList1 = blogPostsDao.getBlogPostsForUser(bu1);
-		for(BlogPosts bp : bpList1) {
-			System.out.format("Looping blog posts: t:%s c:%s u:%s \n",
-				bp.getTitle(), bp.getContent(), bu1.getUserName());
+
+		// ---------------------------------  READ INFORMATION --------------------------------- //
+		List <Neighborhood> neighborhoodList = NeighborhoodDao.getNeighborhoodByZip(1);
+		System.out.println("----PRINTING HERE-----");
+		for (Neighborhood n : neighborhoodList) {
+			System.out.format("Looping Neighborhoods: NZipID:%d, City: %s",
+					n.getNeighborZipId(),
+					n.getCity());
 		}
 
-	
+		List<Bookmark> bookmarkList = bookmarkDao.getBookmarkById(1);
+		System.out.println("---get bookmarks by id---");
+		for (Bookmark b : bookmarkList) {
+			System.out.format("Looping Bookmark: id:%d created:%s userId:%d description:%s neighborZipId:%d\n",
+					b.getBookmarkId(), b.getCreated().toString(), b.getUserId(),
+					b.getDescription(), b.getNeighborZipId());
+		}
+
+		List<CrimeActivity> crimeActivityList = CrimeActivity.getCrimeActivityById(1);
+		System.out.println("---get crime activities by id---");
+		for (CrimeActivity c : crimeActivityList) {
+			System.out.format("Looping CrimeActivity: CaseId:%d City:%s State:%s NeighborZipId:%d CrimeName:%s\n",
+					c.getCaseId(), c.getCity(), c.getState(),
+					c.getNeighborZipId(), c.getCrimeName());
+		}
+
+
+		// ---------------------------------  UPDATE INFORMATION --------------------------------- //
+
+		bookmark.update(bookmark, "New Crime Name");
+		System.out.format("Updating Bookmark: Created:%s UserId:%d Description:%s NeighborZipId:%d BookmarkId:%d\n",
+				bookmark.getCreated(), bookmark.getUserId(), bookmark.getDescription(),
+				bookmark.getNeighborZipId(), bookmark.getBookmarkId());
+
+		String newCrimeName = "New Crime Name";
+		try {
+			CrimeActivityDao c = CrimeActivityDao.getInstance();
+			c.updateCrimeName(crimeActivity, newCrimeName);
+			System.out.format("Updating CrimeActivity: CaseId:%d City:%s State:%s NeighborZipId:%d CrimeName:%s\n",
+					crimeActivity.getCaseId(), crimeActivity.getCity(), crimeActivity.getState(),
+					crimeActivity.getNeighborZipId(), newCrimeName);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		// ---------------------------------  DELETE INFORMATION --------------------------------- //
+
+		System.out.println("\n---Delete Bookmark---");
+		try {
+			bookmarkDao.delete(bookmark);
+			System.out.println("Successful deletion of bookmark");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+
+		// Delete CrimeActivity
+		System.out.println("\n---Delete CrimeActivity---");
+		try {
+			boolean deletionSuccessful = crimeActivity.delete(); // Assuming delete() returns a boolean indicating success
+			if (deletionSuccessful) {
+				System.out.println("Successful deletion of crime activity");
+			} else {
+				System.out.println("Failed to delete crime activity");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }

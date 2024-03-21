@@ -7,22 +7,22 @@ package lifeHub.model;
 
 // Class Instance
 public class Neighborhood {
-    private int neighborZipId;
-    private String city;
-	
-    // Constructor
-    public Neighborhood(int neighborZipId, String city) {
+	private int neighborZipId;
+	private String city;
+
+	// Constructor
+	public Neighborhood(int neighborZipId, String city) {
 		super();
 		this.neighborZipId = neighborZipId;
 		this.city = city;
 	}
 
-    // Getters and Setters
-    public int getNeighborZipId() {
+	// Getters and Setters
+	public int getNeighborZipId() {
 		return neighborZipId;
 	}
 
-	public void setNeighborZipId(int neighborZipId) {
+	public void getNeighborhoodByZip(int neighborZipId) {
 		this.neighborZipId = neighborZipId;
 	}
 
@@ -34,7 +34,7 @@ public class Neighborhood {
 		this.city = city;
 	}
 
-    // toString
+	// toString
 	@Override
 	public String toString() {
 		return "Neighborhood [neighborZipId=" + neighborZipId + ", city=" + city + "]";

@@ -13,34 +13,38 @@ package lifeHub.model;
 
 // Class Instance
 public class FarmersMarket {
-    private int marketId;
-    private int neighborZipId;
-    private String name;
-    private String dates;
-    private String hours;
-    private String website;
-    private MarketType marketType;
-    
-    //ENUM
-    public enum MarketType {
-    	ALLYEAR,
-    	SEASONAL
-    }
+	private int marketId;
+	private int neighborZipId;
+	private String name;
+	private String dates;
+	private String hours;
+	private String website;
+	private MarketType marketType;
 
-    // Constructor
+	//ENUM
+	public enum MarketType {
+		ALLYEAR,
+		SEASONAL
+	}
+
+	// Constructor
 	public FarmersMarket(int marketId, int neighborZipId, String name, String dates, String hours, String website,
-			lifeHub.model.FarmersMarket.MarketType marketType) {
+						 lifeHub.model.FarmersMarket.MarketType marketType) {
 		super();
 		this.marketId = marketId;
 		this.neighborZipId = neighborZipId;
-		name = name;
-		dates = dates;
-		hours = hours;
-		website = website;
-		marketType = marketType;
+		this.name = name;
+		this.dates = dates;
+		this.hours = hours;
+		this.website = website;
+		this.marketType = marketType;
 	}
 
-    // Getters and Setters
+	public FarmersMarket(int marketId) {
+		this.marketId = marketId;
+	}
+
+	// Getters and Setters
 	public int getMarketId() {
 		return marketId;
 	}
@@ -62,7 +66,7 @@ public class FarmersMarket {
 	}
 
 	public void setName(String name) {
-		name = name;
+		this.name = name;
 	}
 
 	public String getDates() {
@@ -70,7 +74,7 @@ public class FarmersMarket {
 	}
 
 	public void setDates(String dates) {
-		dates = dates;
+		this.dates = dates;
 	}
 
 	public String getHours() {
@@ -78,7 +82,7 @@ public class FarmersMarket {
 	}
 
 	public void setHours(String hours) {
-		hours = hours;
+		this.hours = hours;
 	}
 
 	public String getWebsite() {
@@ -86,7 +90,7 @@ public class FarmersMarket {
 	}
 
 	public void setWebsite(String website) {
-		website = website;
+		this.website = website;
 	}
 
 	public MarketType getMarketType() {
@@ -94,10 +98,10 @@ public class FarmersMarket {
 	}
 
 	public void setMarketType(MarketType marketType) {
-		marketType = marketType;
+		this.marketType = marketType;
 	}
 
-    // toString
+	// toString
 	@Override
 	public String toString() {
 		return "FarmersMarket [marketId=" + marketId + ", neighborZipId=" + neighborZipId + ", Name=" + name
