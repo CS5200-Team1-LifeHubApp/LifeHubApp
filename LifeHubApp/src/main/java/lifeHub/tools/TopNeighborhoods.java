@@ -10,8 +10,8 @@ public class TopNeighborhoods {
     public static void main(String[] args) {
         // Database connection parameters
         String url = "jdbc:mysql://localhost:3306/LifeHubApp";
-        String username = "your_username";
-        String password = "your_password";
+        String username = "your_username";//TODO: replace with your MySQL username
+        String password = "your_password";//TODO: replace with your MySQL password
 
         // SQL query to retrieve top 10 neighborhoods with highest average rating
         String query = "SELECT n.NeighborZipId, ROUND(AVG(r.Rating), 2) AS AverageRating " +

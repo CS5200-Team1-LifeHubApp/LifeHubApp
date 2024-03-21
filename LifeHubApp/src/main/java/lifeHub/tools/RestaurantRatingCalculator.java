@@ -8,8 +8,8 @@ import java.sql.*;
 public class RestaurantRatingCalculator {
     // Define your database connection parameters
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/LifeHubApp";
-    private static final String USERNAME = "your_username";
-    private static final String PASSWORD = "your_password";
+    private static final String USERNAME = "your_username";//TODO: replace with your MySQL username
+    private static final String PASSWORD = "your_password";//TODO: replace with your MySQL password
 
     public void calculateAverageRatings() {
         try (Connection connection = DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD)) {
