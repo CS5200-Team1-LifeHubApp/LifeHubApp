@@ -1,167 +1,118 @@
 package lifeHub.tools;
 
-import lifeHub.dal.*;
-import lifeHub.model.*;
-import lifeHub.model.FarmersMarket.MarketType;
-import lifeHub.model.Restaurant.CuisineType;
-
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.sql.Timestamp;
-import java.util.Date;
-import java.util.List;
-
 
 /**
- * main() runner, used for the app demo.
- *
- * Instructions:
- * 1. Create a new MySQL schema and then run the CREATE TABLE statements from lecture:
- * http://goo.gl/86a11H.
- * 2. Update ConnectionManager with the correct user, password, and schema.
+ * This is a inserter class with insert methods, to see or test all the CRUD operation, go to CRUDTester.java
  */
 public class Inserter {
+    
+    // Method to insert user data into the Users table manually, comment out when don't needs
+    public static void insertUserData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Users (UserName, FirstName, LastName, Email, PasswordHash) VALUES ('emelinaw', 'Yiwen', 'Wang', 'eyyw@hotmail.com', 'a9f24d8ae410ef9f4be7a97e70191144')",
+        };
+        
+        executeBatchInsert(connection, insertStatements);
+    }
+    
+    // Method to insert crime data into the CrimeActivity table manually, comment out when don't need
+    public static void insertCrimeData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO CrimeActivity (CaseId, CrimeName, City, State, NeighborZipId) VALUES ('11112345', 'Theft', 'Seattle', 'Washington', 98105)",
+        };
+        
+        executeBatchInsert(connection, insertStatements);
+    }
+    
+    // Method to insert Neighborhood Data into the Neighborhood table manually, comment out when don't need
+    public static void insertNeighborhoodData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO NeighborhoodbyZip (NeighborZipId, City) VALUES (98000, 'NoWhere')",
+        };
 
-	public static void main(String[] args) throws SQLException {
-		// DAO instances.
-		UsersDao usersDao = UsersDao.getInstance();
-		ReviewDao reviewDao = ReviewDao.getInstance();
-		RestaurantDao restaurantDao = RestaurantDao.getInstance();
-		RecommendationDao recommendationDao = RecommendationDao.getInstance();
-		PetDao petDao = PetDao.getInstance();
-		ParkDao parkDao = ParkDao.getInstance();
-		NeighborhoodDao neighborhoodDao = NeighborhoodDao.getInstance();
-		FarmersMarketDao farmersMarketDao = FarmersMarketDao.getInstance();
-		CrimeActivityDao crimeActivityDao = CrimeActivityDao.getInstance();
-		BookmarkDao bookmarkDao = BookmarkDao.getInstance();
+        executeBatchInsert(connection, insertStatements);
+    }
+    
+    // Method to insert Review Data into the Review table manually, comment out when don't need
+    public static void insertReviewData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Review (Created, Content, Rating, UserId, NeighborZipId) VALUES ('2023-12-18 19:50:51', 'Love the vibe!', 5, 1, 98004)",
+        };
 
-		// INSERT objects from our model.		
-		// TODO -- UPDATE DATA TO MATCH NEW CLASS MODELS, ADD ADDITIONAL DATA AS NEEDED
-		// Users
-		Users user = new Users(1,"user1","Derek","Laister","dLaister@email.com","password1");
-		user = usersDao.create(user);
-		Users user1 = new Users(2,"user2","Alexander","Dickey","aDickey@email.com","password2");
-		user = usersDao.create(user1);
-		Users user2 = new Users(3,"user3","Jiyu","He","jHe@email.com","password3");
-		user = usersDao.create(user2);
-		Users user3 = new Users(4,"user4","Yueh-Chen","Tsai","yTsai@email.com","password4");
-		user = usersDao.create(user3);
-		Users user4 = new Users(5,"user5","Yiwen ","Wang","yWang@email.com","password5");
-		user = usersDao.create(user4);
-		Users user5 = new Users(6,"user6","Fan ","Zhou","fZhou@email.com","password6");
-		user = usersDao.create(user5);
-		Users user6 = new Users(7,"user7","Taiji ","Tai","tTai@email.com","password7");
-		user = usersDao.create(user6);
-		Users user7 = new Users(8,"user8","Alexander","Doe","aDoe","password8");
-		user = usersDao.create(user7);
+        executeBatchInsert(connection, insertStatements);
+    }
+    
+    // Method to insert FarmersMarket Data into the FarmersMarket table manually, comment out when don't need
+    public static void insertFarmersMarketData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO FarmersMarket (NeighborZipId, Name, Dates, Hours, Website, MarketType) VALUES (98105, 'University District Farmers Market', 'Saturday', '9:00 AM - 2:00 PM', 'http://udistrictmarket.com/', 'SEASONAL')",
+            "INSERT INTO FarmersMarket (NeighborZipId, Name, Dates, Hours, Website, MarketType) VALUES (98106, 'West Seattle Farmers Market', 'Sunday', '10:00 AM - 2:00 PM', 'https://seattlefarmersmarkets.org/markets/west-seattle', 'SEASONAL')"
+        };
 
-		// Timestamp
-		Timestamp currentTimestamp = new Timestamp(System.currentTimeMillis());
+        executeBatchInsert(connection, insertStatements);
+    }
 
-		// Neighborhood
-		Neighborhood neighborhood = new Neighborhood(1, "Shangri-La");
-		neighborhood = neighborhoodDao.create(neighborhood);
+    // Method to insert Park Data into the Park table manually, comment out when don't need
+    public static void insertParkData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Park (ParkId, NeighborZipId, Name, FeatureId, Hours, FeatureDesc) VALUES (1, 98105, 'Green Lake Park', 1, '6:00 AM - 10:00 PM', 'Large park with a lake for boating and walking trails.')",
+        };
 
-		// Restaurant
-		Restaurant restaurant = new Restaurant(1, "Restaurant1", "Description here", "Hours here", "restaurant1@website.com", CuisineType.ASIAN, 1);
-		restaurant = restaurantDao.create(restaurant);
+        executeBatchInsert(connection, insertStatements);
+    }
 
-//		for (int xyz = 0; xyz < 200; xyz++) {
-//			System.out.println("waiting");
-//		}
-		// Recommendation
-		Recommendation recommendation = new Recommendation(1, 1, 1);
-		recommendation = recommendationDao.create(recommendation);
+    // Method to insert Pet Data into the Pet table manually, comment out when don't need
+    public static void insertPetData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Pet (LicenseId, Name, Species, PrimaryBreed, NeighborZipId) VALUES ('12345', 'Max', 'Dog', 'Labrador Retriever', 98105)",
+        };
 
-		// Review
-		Review review = new Review(1, currentTimestamp,"Content here", 5.0, 1, 1);
-		review = reviewDao.create(review);
+        executeBatchInsert(connection, insertStatements);
+    }
 
-		// Pet
-		Pet pet = new Pet(1, "Betty Boop", "Cat", "Mix", 1);
-		pet = petDao.create(pet);
+    // Method to insert Recommendation Data into the Recommendation table manually, comment out when don't need
+    public static void insertRecommendationData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Recommendation (UserId, NeighborZipId) VALUES (1, 98105)",
+        };
 
-		// Park
-		Park park = new Park(1, 1, "Park1", 1, "noon-midnight", "Feature description here");
-		park = parkDao.create(park);
+        executeBatchInsert(connection, insertStatements);
+    }
 
-		// FarmersMarket
-		FarmersMarket farmersMarket = new FarmersMarket(1, 1, "Name1", "Dates1", "Hours1", "name1.com", MarketType.ALLYEAR);
-		farmersMarket = farmersMarketDao.create(farmersMarket);
+    // Method to insert Restaurant Data into the Restaurant table manually, comment out when don't need
+    public static void insertRestaurantData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Restaurant (Name, Description, Hours, Website, CuisineType, NeighborZipId) VALUES ('Seattle Grill', 'A cozy grill restaurant offering a variety of American dishes.', '11:00 AM - 9:00 PM', 'http://seattlegrill.com/', 'AMERICAN', 98105)",
+        };
 
-		// CrimeActivity
-		CrimeActivity crimeActivity = new CrimeActivity(1, "City1", "State1", 1, "Burglary");
-		crimeActivity = crimeActivityDao.create(crimeActivity);
+        executeBatchInsert(connection, insertStatements);
+    }
+    
+    // Method to insert Bookmark Data into the Bookmark table manually, comment out when don't need
+    public static void insertBookmarkData(Connection connection) throws SQLException {
+        String[] insertStatements = {
+            "INSERT INTO Bookmark (Created, UserId, Description, NeighborZipId) VALUES ('2023-11-15 19:52:42', 1, 'Must visit', 98104)",
+            "INSERT INTO Bookmark (Created, UserId, Description, NeighborZipId) VALUES ('2023-08-30 19:52:42', 2, 'Must visit', 98105)"
+        };
 
-		// Bookmark
-		Bookmark bookmark = new Bookmark(1, currentTimestamp, 1, "Description1", 1);
-		bookmark = bookmarkDao.create(bookmark);
+        executeBatchInsert(connection, insertStatements);
+    }
 
-
-		// ---------------------------------  READ INFORMATION --------------------------------- //
-		List <Neighborhood> neighborhoodList = NeighborhoodDao.getNeighborhoodByZip(1);
-		System.out.println("----PRINTING HERE-----");
-		for (Neighborhood n : neighborhoodList) {
-			System.out.format("Looping Neighborhoods: NZipID:%d, City: %s",
-					n.getNeighborZipId(),
-					n.getCity());
-		}
-
-		List<Bookmark> bookmarkList = bookmarkDao.getBookmarkById(1);
-		System.out.println("---get bookmarks by id---");
-		for (Bookmark b : bookmarkList) {
-			System.out.format("Looping Bookmark: id:%d created:%s userId:%d description:%s neighborZipId:%d\n",
-					b.getBookmarkId(), b.getCreated().toString(), b.getUserId(),
-					b.getDescription(), b.getNeighborZipId());
-		}
-
-		List<CrimeActivity> crimeActivityList = CrimeActivity.getCrimeActivityById(1);
-		System.out.println("---get crime activities by id---");
-		for (CrimeActivity c : crimeActivityList) {
-			System.out.format("Looping CrimeActivity: CaseId:%d City:%s State:%s NeighborZipId:%d CrimeName:%s\n",
-					c.getCaseId(), c.getCity(), c.getState(),
-					c.getNeighborZipId(), c.getCrimeName());
-		}
-
-
-		// ---------------------------------  UPDATE INFORMATION --------------------------------- //
-
-		bookmark.update(bookmark, "New Crime Name");
-		System.out.format("Updating Bookmark: Created:%s UserId:%d Description:%s NeighborZipId:%d BookmarkId:%d\n",
-				bookmark.getCreated(), bookmark.getUserId(), bookmark.getDescription(),
-				bookmark.getNeighborZipId(), bookmark.getBookmarkId());
-
-		String newCrimeName = "New Crime Name";
-		try {
-			CrimeActivityDao c = CrimeActivityDao.getInstance();
-			c.updateCrimeName(crimeActivity, newCrimeName);
-			System.out.format("Updating CrimeActivity: CaseId:%d City:%s State:%s NeighborZipId:%d CrimeName:%s\n",
-					crimeActivity.getCaseId(), crimeActivity.getCity(), crimeActivity.getState(),
-					crimeActivity.getNeighborZipId(), newCrimeName);
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-
-		// ---------------------------------  DELETE INFORMATION --------------------------------- //
-
-		System.out.println("\n---Delete Bookmark---");
-		try {
-			bookmarkDao.delete(bookmark);
-			System.out.println("Successful deletion of bookmark");
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-
-		// Delete CrimeActivity
-		System.out.println("\n---Delete CrimeActivity---");
-		try {
-			boolean deletionSuccessful = crimeActivity.delete(); // Assuming delete() returns a boolean indicating success
-			if (deletionSuccessful) {
-				System.out.println("Successful deletion of crime activity");
-			} else {
-				System.out.println("Failed to delete crime activity");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
+    
+    // Method to execute batch insert statements
+    private static void executeBatchInsert(Connection connection, String[] insertStatements) throws SQLException {
+        try (PreparedStatement preparedStatement = connection.prepareStatement("")) {
+            for (String statement : insertStatements) {
+                preparedStatement.addBatch(statement);
+            }
+            preparedStatement.executeBatch();
+            System.out.println("Data inserted successfully.");
+        } catch (SQLException e) {
+            System.err.println("Error inserting data: " + e.getMessage());
+            throw e;
+        }
+    }
 }

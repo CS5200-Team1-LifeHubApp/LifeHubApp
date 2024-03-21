@@ -1,31 +1,14 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
-
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Delete a User</title>
+<meta charset="UTF-8">
+<title>Delete User</title>
 </head>
 <body>
-	<h1>${messages.title}</h1>
-	<form action="userdelete" method="post">
-		<p>
-			<div <c:if test="${messages.disableSubmit}">style="display:none"</c:if>>
-				<label for="username">UserName</label>
-				<input id="username" name="username" value="${fn:escapeXml(param.username)}">
-			</div>
-		</p>
-		<p>
-			<span id="submitButton" <c:if test="${messages.disableSubmit}">style="display:none"</c:if>>
-			<input type="submit">
-			</span>
-		</p>
-	</form>
-	<br/><br/>
-	
+    <h2>User Deleted Successfully</h2>
+    <p>The user has been successfully deleted from the database.</p>
+    <p><a href="userList.jsp">Back to User List</a></p>
 </body>
 </html>

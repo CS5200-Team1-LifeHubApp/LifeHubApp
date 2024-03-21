@@ -1,41 +1,34 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="lifeHub.model.User" %>
+<%@ page import="lifeHub.dal.UserDao" %>
 
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Create a User</title>
-</head>
-<body>
-	<h1>Create BlogUser</h1>
-	<form action="usercreate" method="post">
-		<p>
-			<label for="username">UserName</label>
-			<input id="username" name="username" value="">
-		</p>
-		<p>
-			<label for="firstname">FirstName</label>
-			<input id="firstname" name="firstname" value="">
-		</p>
-		<p>
-			<label for="lastname">LastName</label>
-			<input id="lastname" name="lastname" value="">
-		</p>
-		<p>
-			<label for="dob">DoB (yyyy-mm-dd)</label>
-			<input id="dob" name="dob" value="">
-		</p>
-		<p>
-			<input type="submit">
-		</p>
-	</form>
-	<br/><br/>
-	<p>
-		<span id="successMessage"><b>${messages.success}</b></span>
-	</p>
-</body>
-</html>
+<%
+    // Retrieve form data
+    String userName = request.getParameter("userName");
+    String firstName = request.getParameter("firstName");
+    String lastName = request.getParameter("lastName");
+    String email = request.getParameter("email");
+    String password = request.getParameter("password");
+
+    // Hash the password
+    String passwordHash = ""; // Implement password hashing here
+
+    // Create a new User object
+    User user = new User(0, userName, firstName, lastName, email, passwordHash);
+
+    // Create a UserDao instance
+    UserDao userDao = UserDao.getInstance();
+
+    // Try to create the user
+    try {
+        userDao.createUser(user);
+        // User created successfully
+        out.println("<h1>User created successfully!</h1>");
+        out.println("<p>User ID: " + user.getUserId() + "</p>");
+    } catch (Exception e) {
+        // Error occurred during user creation
+        out.println("<h1>Error creating user</h1>");
+        out.println("<p>" + e.getMessage() + "</p>");
+    }
+%>

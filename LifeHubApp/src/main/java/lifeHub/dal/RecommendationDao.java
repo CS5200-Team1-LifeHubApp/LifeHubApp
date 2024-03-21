@@ -1,105 +1,119 @@
 package lifeHub.dal;
 
-import lifeHub.model.*;
+import java.sql.*;
+import lifeHub.model.Recommendation;
 
-// TODO -- be sure to remove unused imports
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-
-
-/**
- * Data access object (DAO) class to interact with the underlying Recommendation table in your MySQL
- * instance. This is used to store {@link Recommendation} into your MySQL instance and retrieve 
- * {@link Recommendation} from MySQL instance.
- */
 public class RecommendationDao {
-	protected ConnectionManager connectionManager;
-	
-	// Single pattern: instantiation is limited to one object.
-	private static RecommendationDao instance = null;
-	protected RecommendationDao() {
-		connectionManager = new ConnectionManager();
-	}
-	public static RecommendationDao getInstance() {
-		if(instance == null) {
-			instance = new RecommendationDao();
-		}
-		return instance;
-	}
+    protected ConnectionManager connectionManager;
 
-	// TODO -- CRUD statements below (create, read, update, delete)
-	
-	/**
-	 * Save the Recommendation instance by storing it in your MySQL instance.
-	 * This runs a INSERT statement.
-	 */
-	public Recommendation create(Recommendation recommendation) throws SQLException {
-		String insertRecommendation = 
-				"INSERT INTO Recommendation(RecommendationId,UserId,NeighborZipId) VALUES(?,?,?);";
-		Connection connection = null;
-		PreparedStatement insertStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			insertStmt = connection.prepareStatement(insertRecommendation);
+    private static RecommendationDao instance = null;
+    protected RecommendationDao() {
+        connectionManager = new ConnectionManager();
+    }
+    public static RecommendationDao getInstance() {
+        if(instance == null) {
+            instance = new RecommendationDao();
+        }
+        return instance;
+    }
 
-			insertStmt.setInt(1, recommendation.getRecommendationId());
-			insertStmt.setInt(2, recommendation.getUserId());
-			insertStmt.setInt(3, recommendation.getNeighborZipId());
+    // CREATE
+    public Recommendation create(Recommendation recommendation) throws SQLException {
+        String insertRecommendation = "INSERT INTO Recommendation(UserId, NeighborZipId) VALUES(?,?);";
+        Connection connection = null;
+        PreparedStatement insertStmt = null;
+        ResultSet resultKey = null;
+        try {
+            connection = connectionManager.getConnection();
+            insertStmt = connection.prepareStatement(insertRecommendation, Statement.RETURN_GENERATED_KEYS);
+            // Set parameters
+            insertStmt.setInt(1, recommendation.getUserId());
+            insertStmt.setInt(2, recommendation.getNeighborZipId());
+            insertStmt.executeUpdate();
+            
+            resultKey = insertStmt.getGeneratedKeys();
+            int recommendationId = -1;
+            if(resultKey.next()) {
+                recommendationId = resultKey.getInt(1);
+            } else {
+                throw new SQLException("Unable to retrieve auto-generated key.");
+            }
+            recommendation.setRecommendationId(recommendationId);
+            return recommendation;
+        } finally {
+            if(resultKey != null) resultKey.close();
+            if(insertStmt != null) insertStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
 
-			insertStmt.executeUpdate();
-			
-			return recommendation;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(insertStmt != null) {
-				insertStmt.close();
-			}
-		}
-	}
-	
-	
-	
-	
-	// TODO -- READ and UPDATE methods here!!!
-	
-	
-	
-	/**
-	 * Delete the CrimeActivety instance.
-	 * This runs a DELETE statement.
-	 */
-	public Recommendation delete(Recommendation recommendation) throws SQLException {
-		String deleteRecommendation = 
-				"DELETE FROM Recommendation WHERE RecommendationId=?;";
-		Connection connection = null;
-		PreparedStatement deleteStmt = null;
-		try {
-			connection = connectionManager.getConnection();
-			deleteStmt = connection.prepareStatement(deleteRecommendation);
-			deleteStmt.setInt(1, recommendation.getRecommendationId());
-			deleteStmt.executeUpdate();
-//			super.delete(recommendation); // TODO -- this may or many NOT be needed based on instance
+    // READ (example method, adjust according to your needs)
+    public Recommendation getRecommendationById(int recommendationId) throws SQLException {
+        String selectRecommendation = "SELECT RecommendationId, UserId, NeighborZipId FROM Recommendation WHERE RecommendationId=?;";
+        Connection connection = null;
+        PreparedStatement selectStmt = null;
+        ResultSet results = null;
+        try {
+            connection = connectionManager.getConnection();
+            selectStmt = connection.prepareStatement(selectRecommendation);
+            selectStmt.setInt(1, recommendationId);
 
-			return null;
-		} catch (SQLException e) {
-			e.printStackTrace();
-			throw e;
-		} finally {
-			if(connection != null) {
-				connection.close();
-			}
-			if(deleteStmt != null) {
-				deleteStmt.close();
-			}
-		}
-	}
+            results = selectStmt.executeQuery();
+            if(results.next()) {
+                int userId = results.getInt("UserId");
+                int neighborZipId = results.getInt("NeighborZipId");
+                
+                Recommendation recommendation = new Recommendation(recommendationId, userId, neighborZipId);
+                return recommendation;
+            }
+        } finally {
+            if(results != null) results.close();
+            if(selectStmt != null) selectStmt.close();
+            if(connection != null) connection.close();
+        }
+        return null;
+    }
+
+    // UPDATE 
+    public Recommendation update(Recommendation recommendation) throws SQLException {
+        String updateRecommendation = "UPDATE Recommendation SET UserId=?, NeighborZipId=? WHERE RecommendationId=?;";
+        Connection connection = null;
+        PreparedStatement updateStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            updateStmt = connection.prepareStatement(updateRecommendation);
+            // Set parameters for the update
+            updateStmt.setInt(1, recommendation.getUserId());
+            updateStmt.setInt(2, recommendation.getNeighborZipId());
+            updateStmt.setInt(3, recommendation.getRecommendationId());
+
+            updateStmt.executeUpdate();
+            
+            // Return the updated recommendation
+            return recommendation;
+        } finally {
+            if(updateStmt != null) updateStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
+
+
+    // DELETE
+    public boolean delete(Recommendation recommendation) throws SQLException {
+        String deleteRecommendation = "DELETE FROM Recommendation WHERE RecommendationId=?;";
+        Connection connection = null;
+        PreparedStatement deleteStmt = null;
+        try {
+            connection = connectionManager.getConnection();
+            deleteStmt = connection.prepareStatement(deleteRecommendation);
+            deleteStmt.setInt(1, recommendation.getRecommendationId());
+            int affectedRows = deleteStmt.executeUpdate();
+
+            // Return true if a row was deleted
+            return affectedRows > 0;
+        } finally {
+            if(deleteStmt != null) deleteStmt.close();
+            if(connection != null) connection.close();
+        }
+    }
 }
