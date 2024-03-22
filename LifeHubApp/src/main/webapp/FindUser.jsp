@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="lifeHub.model.User" %>
 <%@ page import="lifeHub.dal.UserDao" %>
+<%@ page import="java.sql.SQLException" %>
 
 <%
     // Retrieve user ID from request parameter

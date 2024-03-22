@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-  <display-name>BlogApplication</display-name>
+  <display-name>LifeHubApplication</display-name>
   <welcome-file-list>
-    <welcome-file>FindUsers.jsp</welcome-file>
+    <welcome-file>FindNeighborhood.jsp</welcome-file>
   </welcome-file-list>
-  <!--
+
   <servlet>
-    <servlet-name>FindUsers</servlet-name>
-    <servlet-class>blog.servlet.FindUsers</servlet-class>
+    <servlet-name>FindUser</servlet-name>
+    <servlet-class>lifeHub.servlets.FindUser</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>FindUsers</servlet-name>
-    <url-pattern>/findusers</url-pattern>
+    <servlet-name>FindUser</servlet-name>
+    <url-pattern>/finduser/*</url-pattern>
   </servlet-mapping>
-  -->
+
+  <servlet>
+    <servlet-name>FindPet</servlet-name>
+    <servlet-class>lifeHub.servlets.FindPet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindPet</servlet-name>
+    <url-pattern>/findpet/*</url-pattern>
+  </servlet-mapping>
+
+<!--  <servlet>-->
+<!--    <servlet-name>SpeciesCountAnalyzerServlet</servlet-name>-->
+<!--    <servlet-class>lifeHub.servlets.SpeciesCountAnalyzerServlet</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>SpeciesCountAnalyzerServlet</servlet-name>-->
+<!--    <url-pattern>/petspecies/*</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+  <servlet>
+    <servlet-name>PetCountCalculatorServlet</servlet-name>
+    <servlet-class>lifeHub.servlets.PetCountCalculatorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PetCountCalculatorServlet</servlet-name>
+    <url-pattern>/countpet/*</url-pattern>
+  </servlet-mapping>
+
 </web-app>

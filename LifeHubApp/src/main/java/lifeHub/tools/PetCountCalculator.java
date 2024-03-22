@@ -2,6 +2,8 @@ package lifeHub.tools;
 
 import java.sql.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import lifeHub.dal.ConnectionManager;
 
 /**
@@ -14,35 +16,26 @@ public class PetCountCalculator {
         calculator.calculateAndPrintPetCounts();
     }
 
-    public void calculateAndPrintPetCounts() {
+    public Map<Integer, Integer> calculateAndPrintPetCounts() {
+        Map<Integer, Integer> petCounts = new HashMap<>();
         try {
             ConnectionManager connectionManager = new ConnectionManager();
-            Connection connection = null;
-            Statement stmt = null;
-            ResultSet rs = null;
+            try (Connection connection = connectionManager.getConnection();
+                Statement stmt = connection.createStatement();
+                ResultSet rs = retrievePetCounts(stmt)) {
 
-            try {
-                connection = connectionManager.getConnection();
-                stmt = connection.createStatement();
-
-                rs = retrievePetCounts(stmt);
-
-                printResults(rs);
-            } finally {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (stmt != null) {
-                    stmt.close();
-                }
-                if (connection != null) {
-                    connection.close();
+                while (rs.next()) {
+                    int zipcode = rs.getInt("NeighborZipId");
+                    int petCount = rs.getInt("PetCount");
+                    petCounts.put(zipcode, petCount);
                 }
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return petCounts;
     }
+
 
     private ResultSet retrievePetCounts(Statement stmt) throws SQLException {
         String query = "SELECT NeighborZipId, COUNT(*) AS PetCount " +

@@ -1,12 +1,15 @@
-package lifeHub.servlet;
+package lifeHub.servlets;
 
 import java.io.*;
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.sql.*;
 import lifeHub.dal.UserDao;
+import lifeHub.model.User;
 
-public class UserDelete extends HttpServlet {
+@WebServlet("/FindUser")
+public class FindUser extends HttpServlet {
 
     protected UserDao userDao;
 
@@ -19,15 +22,19 @@ public class UserDelete extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // Get user ID from request parameter
+        // Get the user ID from the request parameters
         int userId = Integer.parseInt(request.getParameter("userId"));
 
         try {
-            // Delete user from the database
-            userDao.deleteUser(userId);
+            // Retrieve the user from the database
+            User user = userDao.getUserById(userId);
+            
+            // Set the user as an attribute in the request
+            request.setAttribute("user", user);
 
-            // Redirect to a success page
-            response.sendRedirect(request.getContextPath() + "/success.jsp");
+            // Forward to a JSP page to display user information
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/FindUser.jsp");
+            dispatcher.forward(request, response);
         } catch (SQLException e) {
             // Handle errors
             e.printStackTrace();

@@ -1,4 +1,4 @@
-package lifeHub.servlet;
+package lifeHub.servlets;
 
 import java.io.*;
 import javax.servlet.*;
@@ -7,7 +7,10 @@ import java.sql.*;
 import lifeHub.dal.UserDao;
 import lifeHub.model.User;
 
-public class UserUpdate extends HttpServlet {
+/**
+ * Servlet for user creation, for future use
+ */
+public class UserCreate extends HttpServlet {
 
     protected UserDao userDao;
 
@@ -20,8 +23,7 @@ public class UserUpdate extends HttpServlet {
     public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // Get user information from the request parameters
-        int userId = Integer.parseInt(request.getParameter("userId"));
+        // Get parameters from the request
         String userName = request.getParameter("userName");
         String firstName = request.getParameter("firstName");
         String lastName = request.getParameter("lastName");
@@ -29,18 +31,11 @@ public class UserUpdate extends HttpServlet {
         String passwordHash = request.getParameter("passwordHash");
 
         try {
-            // Retrieve the user from the database
-            User user = userDao.getUserById(userId);
-            
-            // Update user information
-            user.setUserName(userName);
-            user.setFirstName(firstName);
-            user.setLastName(lastName);
-            user.setEmail(email);
-            user.setPasswordHash(passwordHash);
-            
-            // Update user in the database
-            userDao.updateUser(user);
+            // Create a new User object
+            User user = new User(0, userName, firstName, lastName, email, passwordHash);
+
+            // Call UserDao to insert the user into the database
+            userDao.createUser(user);
 
             // Redirect to a success page
             response.sendRedirect(request.getContextPath() + "/success.jsp");

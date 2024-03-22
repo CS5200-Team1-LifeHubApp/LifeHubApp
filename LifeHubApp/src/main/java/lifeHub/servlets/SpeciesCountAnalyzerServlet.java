@@ -1,8 +1,9 @@
-package lifeHub.servlet;
+package lifeHub.servlets;
 
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Map;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -24,7 +25,8 @@ public class SpeciesCountAnalyzerServlet extends HttpServlet {
         try {
             Map<Integer, String> speciesSummary = speciesCountAnalyzer.generateSpeciesSummary();
             request.setAttribute("speciesSummary", speciesSummary);
-            request.getRequestDispatcher("/species_count.jsp").forward(request, response);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/SpeciesCountAnalyzerServlet.jsp");
+            dispatcher.forward(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
             response.sendRedirect(request.getContextPath() + "/error.jsp");

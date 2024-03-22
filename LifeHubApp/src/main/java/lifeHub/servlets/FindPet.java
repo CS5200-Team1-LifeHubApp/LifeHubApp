@@ -1,4 +1,4 @@
-package lifeHub.servlet;
+package lifeHub.servlets;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -19,6 +19,7 @@ public class FindPet extends HttpServlet {
     public void init() throws ServletException {
         petDao = PetDao.getInstance();
     }
+
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -46,7 +47,7 @@ public class FindPet extends HttpServlet {
             }
 
             request.setAttribute("pets", pets);
-            request.getRequestDispatcher("/search_results.jsp").forward(request, response);
+            request.getRequestDispatcher("/FindPet.jsp").forward(request, response);
         } catch (SQLException e) {
             e.printStackTrace();
             response.sendRedirect(request.getContextPath() + "/error.jsp");

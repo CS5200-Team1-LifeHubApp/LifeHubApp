@@ -115,6 +115,64 @@ public class PetDao {
         return pets;
     }
 
+    public List<Pet> getPetsByName(String name) throws SQLException {
+        List<Pet> pets = new ArrayList<>();
+        String selectPetsByName = "SELECT LicenseId, Name, Species, PrimaryBreed, NeighborZipId FROM Pet WHERE Name = ?";
+        try (Connection connection = connectionManager.getConnection();
+            PreparedStatement selectStmt = connection.prepareStatement(selectPetsByName);) {
+            selectStmt.setString(1, name);
+            try (ResultSet results = selectStmt.executeQuery();) {
+                while (results.next()) {
+                    pets.add(mapPetFromResultSet(results));
+                }
+            }
+        }
+        return pets;
+    }
+
+    // Fetch pets by breed
+    public List<Pet> getPetsByBreed(String breed) throws SQLException {
+        List<Pet> pets = new ArrayList<>();
+        String selectPetsByBreed = "SELECT LicenseId, Name, Species, PrimaryBreed, NeighborZipId FROM Pet WHERE PrimaryBreed = ?";
+        try (Connection connection = connectionManager.getConnection();
+            PreparedStatement selectStmt = connection.prepareStatement(selectPetsByBreed);) {
+            selectStmt.setString(1, breed);
+            try (ResultSet results = selectStmt.executeQuery();) {
+                while (results.next()) {
+                    pets.add(mapPetFromResultSet(results));
+                }
+            }
+        }
+        return pets;
+    }
+
+    // Fetch pets by species
+    public List<Pet> getPetsBySpecies(String species) throws SQLException {
+        List<Pet> pets = new ArrayList<>();
+        String selectPetsBySpecies = "SELECT LicenseId, Name, Species, PrimaryBreed, NeighborZipId FROM Pet WHERE Species = ?";
+        try (Connection connection = connectionManager.getConnection();
+            PreparedStatement selectStmt = connection.prepareStatement(selectPetsBySpecies);) {
+            selectStmt.setString(1, species);
+            try (ResultSet results = selectStmt.executeQuery();) {
+                while (results.next()) {
+                    pets.add(mapPetFromResultSet(results));
+                }
+            }
+        }
+        return pets;
+    }
+
+    // Utility method to map a ResultSet to a Pet object
+    private Pet mapPetFromResultSet(ResultSet results) throws SQLException {
+        String licenseId = results.getString("LicenseId");
+        String name = results.getString("Name");
+        String species = results.getString("Species");
+        String primaryBreed = results.getString("PrimaryBreed");
+        int neighborZipId = results.getInt("NeighborZipId");
+        return new Pet(licenseId, name, species, primaryBreed, neighborZipId);
+    }
+
+
     //UPDATE
     public Pet update(Pet pet) throws SQLException {
         String updatePet = "UPDATE Pet SET Name=?, Species=?, PrimaryBreed=?, NeighborZipId=? WHERE LicenseId=?;";

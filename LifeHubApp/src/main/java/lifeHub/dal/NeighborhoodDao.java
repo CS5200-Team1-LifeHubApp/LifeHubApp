@@ -4,8 +4,8 @@ import java.sql.*;
 import lifeHub.model.Neighborhood;
 
 public class NeighborhoodDao {
-    protected ConnectionManager connectionManager;
 
+    private static ConnectionManager connectionManager;
     private static NeighborhoodDao instance = null;
     protected NeighborhoodDao() {
         connectionManager = new ConnectionManager();
@@ -39,7 +39,7 @@ public class NeighborhoodDao {
     }
 
     // READ
-    public Neighborhood getNeighborhoodByZipId(int neighborZipId) throws SQLException {
+    public static Neighborhood getNeighborhoodByZipId(int neighborZipId) throws SQLException {
         String selectNeighborhood = "SELECT NeighborZipId, City FROM NeighborhoodbyZip WHERE NeighborZipId=?;";
         Connection connection = null;
         PreparedStatement selectStmt = null;
