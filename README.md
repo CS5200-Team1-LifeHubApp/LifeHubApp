@@ -19,4 +19,27 @@
 - **Project Name**: LifeHub App
 - **LifeHub** is a comprehensive neighborhood discovery platform that provides insights on local community information like local groceries, pet-friendly parks, farmers markets events, walkable greenways, etc., specially designed for prospective residents in the Seattle Area who are unhappy with the transaction-driven approach of mainstream realestate websites and seeking a community-focused and green living experience.
 
+# Instructions 
+## Running
+### JDBC (data access demo):
+1. Make sure ConnectionManager.java is updated with your information.
+2. MySQL 8: add “&allowPublicKeyRetrieval=true”
+3. Make sure MySQL is running.
+4. Create tables and insert data. (from the dataset folder) in mySQL Workbench.
+5. Run on Server
+
+## Setup
+1. Install Java JDK (use JRE JavaSE-17 or lower w/ Tomcat 9): http://www.oracle.com/technetwork/java/javase/downloads/index.html
+2. Download Apache Tomcat 9.0 (do not use 10): http://tomcat.apache.org
+3. Create new project, configure Eclipse+Tomcat, and run Tomcat (skip the “Web Tools Platform” step): https://www.mulesoft.com/tcat/tomcat-eclipse
+4. Download Connector/J and add jar to your buildpath: http://dev.mysql.com/downloads/connector/j/
+    - Configure Build Path: Libraries > Classpath > Add External JARS…
+    - Browse to path (e.g. /Users/bruce/Documents/mysql-connector-java-8.0.16/mysql-connector-java-8.0.16-bin.jar)
+5. Download JSTL IMPL and SPEC jars: (taglibs-standard-impl-1.2.5.jar, taglibs-standard-spec-1.2.5.jar), http://tomcat.apache.org/download-taglibs.cgi
+    - Copy the JSTL jars to the directory "BlogApplication/src/main/webapp/WEB-INF/lib".
+    - Also copy the Connector/J jar to this path.
+
+
+
+
 [MileStone]:https://github.com/YiwenW312/LifeHubApp/blob/main/Doc/MileStone.md
