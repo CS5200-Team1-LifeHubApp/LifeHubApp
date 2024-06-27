@@ -20,30 +20,24 @@ public class FindPet extends HttpServlet {
         petDao = PetDao.getInstance();
     }
 
-
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String searchType = request.getParameter("searchType");
         String searchTerm = request.getParameter("searchTerm");
+        String speciesFilter = request.getParameter("species");
+        String breedFilter = request.getParameter("breed");
 
         try {
-            List<Pet> pets = null;
-
-            if (searchType != null && searchTerm != null) {
-                switch (searchType) {
-                    case "name":
-                        pets = petDao.getPetsByName(searchTerm);
-                        break;
-                    case "zipcode":
-                        pets = petDao.getPetsByZipcode(Integer.parseInt(searchTerm));
-                        break;
-                    case "breed":
-                        pets = petDao.getPetsByBreed(searchTerm);
-                        break;
-                    case "species":
-                        pets = petDao.getPetsBySpecies(searchTerm);
-                        break;
+            List<Pet> pets;
+            if (searchTerm != null && !searchTerm.isEmpty()) {
+                pets = petDao.getPetsByZipcode(Integer.parseInt(searchTerm));
+                if (speciesFilter != null && !speciesFilter.isEmpty()) {
+                    pets.removeIf(p -> !p.getSpecies().equalsIgnoreCase(speciesFilter));
                 }
+                if (breedFilter != null && !breedFilter.isEmpty()) {
+                    pets.removeIf(p -> !p.getPrimaryBreed().equalsIgnoreCase(breedFilter));
+                }
+            } else {
+                pets = null;
             }
 
             request.setAttribute("pets", pets);

@@ -5,14 +5,14 @@
     <welcome-file>FindNeighborhood.jsp</welcome-file>
   </welcome-file-list>
 
-  <servlet>
-    <servlet-name>FindUser</servlet-name>
-    <servlet-class>lifeHub.servlets.FindUser</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>FindUser</servlet-name>
-    <url-pattern>/finduser/*</url-pattern>
-  </servlet-mapping>
+<!--  <servlet>-->
+<!--    <servlet-name>FindUser</servlet-name>-->
+<!--    <servlet-class>lifeHub.servlets.FindUser</servlet-class>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>FindUser</servlet-name>-->
+<!--    <url-pattern>/finduser/*</url-pattern>-->
+<!--  </servlet-mapping>-->
 
   <servlet>
     <servlet-name>FindPet</servlet-name>
@@ -23,22 +23,22 @@
     <url-pattern>/findpet/*</url-pattern>
   </servlet-mapping>
 
-<!--  <servlet>-->
-<!--    <servlet-name>SpeciesCountAnalyzerServlet</servlet-name>-->
-<!--    <servlet-class>lifeHub.servlets.SpeciesCountAnalyzerServlet</servlet-class>-->
-<!--  </servlet>-->
-<!--  <servlet-mapping>-->
-<!--    <servlet-name>SpeciesCountAnalyzerServlet</servlet-name>-->
-<!--    <url-pattern>/petspecies/*</url-pattern>-->
-<!--  </servlet-mapping>-->
-
   <servlet>
-    <servlet-name>PetCountCalculatorServlet</servlet-name>
-    <servlet-class>lifeHub.servlets.PetCountCalculatorServlet</servlet-class>
+    <servlet-name>FindRestaurant</servlet-name>
+    <servlet-class>lifeHub.servlets.FindRestaurantServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>PetCountCalculatorServlet</servlet-name>
-    <url-pattern>/countpet/*</url-pattern>
+    <servlet-name>FindRestaurant</servlet-name>
+    <url-pattern>/findrestaurant/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>FindPark</servlet-name>
+    <servlet-class>lifeHub.servlets.FindParkServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindPark</servlet-name>
+    <url-pattern>/findpark/*</url-pattern>
   </servlet-mapping>
 
 </web-app>

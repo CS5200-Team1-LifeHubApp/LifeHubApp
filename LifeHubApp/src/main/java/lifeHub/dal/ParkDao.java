@@ -75,7 +75,6 @@ public class ParkDao {
 		}
 	}
 
-
 	public List<Park> getParkByName(String Name) throws SQLException {
 		List<Park> parks = new ArrayList<>();
 		try (Connection connection = connectionManager.getConnection();
@@ -158,6 +157,54 @@ public class ParkDao {
 		return parksByCity;
 	}
 
+	public List<Park> getParksGroupedByZipcode(int neighborZipId) throws SQLException {
+		List<Park> parks = new ArrayList<>();;
+		String sql = "SELECT * FROM Park WHERE NeighborZipId = ?;";
+
+		try (Connection connection = connectionManager.getConnection();
+				PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+			preparedStatement.setInt(1, neighborZipId);
+			try (ResultSet resultSet = preparedStatement.executeQuery()) {
+				while (resultSet.next()) {
+					int fetchedParkId = resultSet.getInt("ParkId");
+					int fetchedNeighborZipId = resultSet.getInt("NeighborZipId");
+					String fetchedName = resultSet.getString("Name");
+					String fetchedHours = resultSet.getString("Hours");
+					int fetchedFeatureId = resultSet.getInt("FeatureId");
+					String fetchedFeatureDesc = resultSet.getString("FeatureDesc");
+
+					Park park = new Park(fetchedParkId, fetchedNeighborZipId, fetchedName, fetchedFeatureId, fetchedHours, fetchedFeatureDesc);
+					parks.add(park);
+				}
+			}
+		}
+		return parks;
+	}
+
+	public List<Park> getParksGroupedByZipcodeWithFeatureId(int neighborZipId, int featureId) throws SQLException {
+		List<Park> parks = new ArrayList<>();;
+		String sql = "SELECT * FROM Park WHERE NeighborZipId = ? AND FeatureId = ?;";
+
+		try (Connection connection = connectionManager.getConnection();
+				PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+			preparedStatement.setInt(1, neighborZipId);
+			preparedStatement.setInt(2, featureId);
+			try (ResultSet resultSet = preparedStatement.executeQuery()) {
+				while (resultSet.next()) {
+					int fetchedParkId = resultSet.getInt("ParkId");
+					int fetchedNeighborZipId = resultSet.getInt("NeighborZipId");
+					String fetchedName = resultSet.getString("Name");
+					String fetchedHours = resultSet.getString("Hours");
+					int fetchedFeatureId = resultSet.getInt("FeatureId");
+					String fetchedFeatureDesc = resultSet.getString("FeatureDesc");
+
+					Park park = new Park(fetchedParkId, fetchedNeighborZipId, fetchedName, fetchedFeatureId, fetchedHours, fetchedFeatureDesc);
+					parks.add(park);
+				}
+			}
+		}
+		return parks;
+	}
 
 	public Park updateParkName(Park Park, String newParkName) throws SQLException {
 		String updateParkName = "UPDATE Park SET Name = ? WHERE ParkId = ?;";

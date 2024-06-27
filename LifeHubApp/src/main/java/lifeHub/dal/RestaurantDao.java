@@ -308,6 +308,28 @@ public class RestaurantDao {
 		return restaurantsByCity;
 	}
 
+	public List<Restaurant> getRestaurantsByNeighborZipIdAndCuisineType(int neighborZipId, Restaurant.CuisineType cuisineType) throws SQLException {
+		List<Restaurant> restaurants = new ArrayList<>();
+		String selectRestaurants = "SELECT * FROM Restaurant WHERE NeighborZipId = ? AND CuisineType = ?;";
+		try (Connection connection = connectionManager.getConnection();
+				PreparedStatement selectStmt = connection.prepareStatement(selectRestaurants)) {
+			selectStmt.setInt(1, neighborZipId);
+			selectStmt.setString(2, cuisineType.name());
+			ResultSet results = selectStmt.executeQuery();
+			while (results.next()) {
+				int resultRestaurantId = results.getInt("RestaurantId");
+				String name = results.getString("Name");
+				String description = results.getString("Description");
+				String hours = results.getString("Hours");
+				String website = results.getString("Website");
+				Restaurant restaurant = new Restaurant(resultRestaurantId, name, description, hours, website, cuisineType, neighborZipId);
+				restaurants.add(restaurant);
+			}
+		}
+		return restaurants;
+	}
+
+
 	// READ
 	public Restaurant getRestaurantById(int restaurantId) throws SQLException {
 		String selectRestaurant = "SELECT RestaurantId, Name, Description, Hours, Website, CuisineType, NeighborZipId FROM Restaurant WHERE RestaurantId=?;";
