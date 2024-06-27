@@ -18,6 +18,8 @@
 - **Team Member:** Alexander Dickey, Jiyu He, Derek Laister, Yueh-Chen Tsai, Yiwen Wang,Fan Zhou, Taiji Zhou Tai
 - **Project Name**: LifeHub App
 - **LifeHub** is a comprehensive neighborhood discovery platform that provides insights on local community information like local groceries, pet-friendly parks, farmers markets events, walkable greenways, etc., specially designed for prospective residents in the Seattle Area who are unhappy with the transaction-driven approach of mainstream realestate websites and seeking a community-focused and green living experience.
+![lifehub logo](https://github.com/CS5200-Team1-LifeHubApp/LifeHubApp/blob/main/Img/LifeHubLogo.png)
+- Demo Slides: https://docs.google.com/presentation/d/148SSuBghP_Q9_DyaNx0XTBNgU1Zc-Zg51iadyeUbt84/edit?usp=sharing
 
 # Instructions 
 ## Running
